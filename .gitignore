@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Environment variables
+.env
+.env.local
+
+# Data files (corpus can be large)
+data/corpus/*.xml
+data/corpus/*.json
+data/embeddings/
+
+# Model files (local LLMs can be huge)
+models/
+*.gguf
+*.bin
+
+# Vector database files
+chroma_db/
+faiss_index/
+
+# Logs
+*.log
+logs/
+
+# macOS
+.DS_Store
+
+# Private docs (internal planning)
+docs/private/
