@@ -1,0 +1,18 @@
+{
+  "version": "corpus-2026-01-13",
+  "created_at": "2026-01-13T07:11:55.846350",
+  "sources": {
+    "ITA": {
+      "file": "I-3.3.xml",
+      "sha256": "fb13b1786b0e105988315bb296e3a2a4c70736e6e8cdd5eca204c77e1de23669"
+    }
+  },
+  "processing": {
+    "chunk_count": 3878,
+    "embedding_model": "all-MiniLM-L6-v2",
+    "chunking_config": {
+      "max_tokens": 1500,
+      "overlap_tokens": 200
+    }
+  }
+}

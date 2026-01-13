@@ -7,7 +7,8 @@ A RAG-powered chatbot that answers Canadian income tax questions with citations 
 ## Status
 
 **Phase 1 Complete:** Corpus Ingestion ✓
-**Phase 2:** LLM Integration & UI (Not Started)
+**Phase 2 Complete:** LLM Integration ✓
+**Phase 3:** User Interface (Not Started)
 
 ### What's Working
 
@@ -15,17 +16,20 @@ A RAG-powered chatbot that answers Canadian income tax questions with citations 
 - ✅ Section-aware chunking with metadata preservation (3,878 chunks)
 - ✅ Local embeddings (MiniLM-L6-v2) and ChromaDB vector store
 - ✅ Retrieval interface for finding relevant ITA sections
-- ✅ Test suite: 31/32 tests passing
+- ✅ LLM integration with OpenAI GPT-5.2
+- ✅ Answer generation with automatic citation extraction
+- ✅ Citation validation against retrieved sources
+- ✅ Refusal detection for complex tax situations
+- ✅ Test suite: 73/74 tests passing (1 skipped)
 
 ### What's NOT Working
 
-- ❌ No chatbot interface (no LLM integration yet)
-- ❌ No answer generation from retrieved chunks
 - ❌ No CRA Folios or guidance documents (ITA only)
-- ❌ No UI (CLI or web)
-- ❌ Cannot actually answer tax questions yet
+- ❌ No UI (CLI or web) - Python API only
+- ❌ No interactive chat interface
+- ❌ No evaluation against full dataset (only 15 questions currently)
 
-**This is infrastructure only.** The retrieval pipeline works, but there's no user-facing chatbot.
+**Note:** The chatbot can answer tax questions programmatically, but there's no user-friendly interface yet.
 
 ---
 
@@ -49,11 +53,13 @@ Ask a question about Canadian personal income tax. The chatbot retrieves relevan
 - ✅ ChromaDB vector store with persistence
 - ✅ Full ITA ingestion pipeline
 
-### Phase 2: LLM Integration (Not Started)
-- ⏳ LLM interface (Claude/GPT/local models)
-- ⏳ Prompt engineering for tax Q&A
-- ⏳ Citation extraction and formatting
-- ⏳ Answer generation with retrieved context
+### Phase 2: LLM Integration (✓ Complete)
+- ✅ LLM interface with OpenAI provider (GPT-5.2)
+- ✅ Prompt engineering for tax Q&A with citation requirements
+- ✅ Citation extraction and validation
+- ✅ Answer generation with retrieved context
+- ✅ Refusal detection for professional advice cases
+- ✅ Chatbot orchestration (retrieve → generate → validate)
 
 ### Phase 3: User Interface (Not Started)
 - ⏳ CLI interface
@@ -126,12 +132,14 @@ Tax law reproduced under the [Reproduction of Federal Law Order](https://laws-lo
 
 ## Development
 
-To run the existing ingestion pipeline:
+### Setup
 
 ```bash
-# Setup
+# Create virtual environment
 python3 -m venv venv
 source venv/bin/activate  # or `venv\Scripts\activate` on Windows
+
+# Install dependencies
 pip install -e .
 
 # Run ingestion (takes ~15 minutes on 2 cores)
@@ -141,10 +149,43 @@ python scripts/ingest_corpus.py --download
 pytest tests/ -v
 ```
 
-**Note:** This only sets up the retrieval infrastructure. There's no chatbot to interact with yet.
+### Using the Chatbot (Python API)
+
+```python
+from src.chat.chatbot import Chatbot
+from src.retrieval.retriever import Retriever
+from src.chat.providers.openai import OpenAIProvider
+import os
+
+# Initialize components
+retriever = Retriever()
+llm = OpenAIProvider(api_key=os.environ['OPENAI_API_KEY'])
+chatbot = Chatbot(retriever, llm)
+
+# Ask a question
+response = chatbot.ask("What is the basic personal amount?")
+
+print(response.answer)
+print("\nCitations:")
+for citation in response.citations:
+    print(f"  - {citation.reference}: {citation.text[:50]}...")
+```
+
+### Evaluation
+
+```bash
+# Evaluate against dataset (requires OpenAI API key)
+OPENAI_API_KEY=sk-... python scripts/evaluate_chatbot.py
+```
+
+**Note:** Phase 3 (user interface) is not yet implemented. The chatbot currently works via Python API only.
 
 ---
 
 ## Contributing
 
-Contributions welcome! Phase 1 is complete, but Phase 2+ need work. See the [PRD](docs/PRD.md) for project scope and [Architecture](docs/architecture.md) for technical approach.
+Contributions welcome! Phases 1 & 2 are complete. Phase 3+ need work:
+- Phase 3: User interface (CLI or web)
+- Phase 4: CRA Folios scraping, hybrid search, calculator module
+
+See the [PRD](docs/PRD.md) for project scope and [Architecture](docs/architecture.md) for technical approach.

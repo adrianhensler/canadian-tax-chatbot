@@ -1,0 +1,14 @@
+{
+  "good_response": {
+    "content": "The basic personal amount for 2024 is $15,705. This is a non-refundable tax credit available to all Canadian residents.\n\nCitations:\n- ITA s.118(1): \"There may be deducted... the basic personal amount\"",
+    "model": "gpt-5.2"
+  },
+  "refusal_response": {
+    "content": "This question involves complex tax planning that requires professional judgment. I recommend consulting a qualified tax professional who can review your specific situation.\n\nCitations:\n- None applicable",
+    "model": "gpt-5.2"
+  },
+  "no_citations_response": {
+    "content": "I don't have information about that specific rule in the provided context.",
+    "model": "gpt-5.2"
+  }
+}
