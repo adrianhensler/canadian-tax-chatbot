@@ -386,6 +386,17 @@ User queries are sent to third-party LLM APIs (Anthropic, OpenAI, or via OpenRou
 - Phone numbers, email addresses
 - Bank account numbers, credit card numbers
 
+**PII detection methods (implementation anchor):**
+- **SIN:** Regex + checksum validation (Luhn) to reduce false positives.
+- **Email:** Regex for RFC-style email patterns.
+- **Phone:** Regex for common North American formats (with optional country code).
+- **Names:** NER model detection _or_ explicit user confirmation before redaction.
+
+**Confidence thresholds and fallbacks:**
+- **Names:** Only redact when NER confidence ≥ **0.85**; if 0.60–0.84, prompt the user to confirm redaction; below 0.60, do not redact.
+- **Regex-only fields:** If a match is ambiguous (e.g., phone vs. account number), prompt user for clarification rather than auto-redacting.
+- **Checksum failures:** Treat as non-PII and leave untouched unless user confirms.
+
 **Not considered PII for this purpose:**
 - Income amounts (required for tax questions)
 - Province of residence (required for provincial tax)
@@ -399,6 +410,10 @@ User Input → Redaction Layer → LLM API → Response → User
             [Redacted values stored in session memory]
             [Restored in response if needed]
 ```
+
+**Redaction test fixtures (implementation anchor):**
+- Maintain unit tests for redaction with example inputs/expected outputs.
+- Include fixtures for: valid SIN, invalid SIN (checksum fail), email/phone variants, and ambiguous name cases (with/without confirmation).
 
 **Logging policy:**
 - Request logs: Timestamp, session ID, response latency only
