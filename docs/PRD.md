@@ -49,6 +49,10 @@ Canadian taxpayers face a complex tax system with thousands of pages of legislat
 
 ## Core Features (v0.1)
 
+### Language Scope (v0.1)
+- **English-only** UI and responses for the initial release.
+- **Limitation:** The corpus is sourced from English consolidations of the Income Tax Act/Regulations and English CRA guidance only. This means citations and quoted excerpts will be English-only, and the system will not surface the authoritative French wording of statutes or CRA materials. Users needing French-language legal text must consult official bilingual sources directly (e.g., Justice Laws and CRA French publications).
+
 ### Q&A with Citations
 - User asks a natural language question about Canadian tax
 - System retrieves relevant passages from the corpus (ITA, Regulations, CRA Folios)
