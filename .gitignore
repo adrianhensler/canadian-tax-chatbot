@@ -44,9 +44,14 @@ htmlcov/
 .env.local
 
 # Data files (corpus can be large)
-data/corpus/*.xml
-data/corpus/*.json
+data/corpus/*/sources/*.xml
+data/corpus/*/chunks.jsonl
+data/corpus/*/chroma/
+data/corpus/*/vectors.*
 data/embeddings/
+
+# Keep corpus manifests for version tracking
+!data/corpus/*/corpus_manifest.json
 
 # Model files (local LLMs can be huge)
 models/
@@ -56,6 +61,9 @@ models/
 # Vector database files
 chroma_db/
 faiss_index/
+
+# Sentence transformers cache
+.cache/
 
 # Logs
 *.log

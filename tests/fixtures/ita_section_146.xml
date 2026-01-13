@@ -1,0 +1,1443 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Statute>
+  <Section xmlns:lims="http://justice.gc.ca/lims" lims:inforce-start-date="2017-12-14" lims:lastAmendedDate="2024-06-20" lims:fid="305633" lims:id="305633">
+    <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305634" lims:id="305634">Definitions</MarginalNote>
+    <Label>146</Label>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305635" lims:id="305635">
+      <Label>(1)</Label>
+      <Text>In this section,</Text>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305636" lims:id="305636">
+        <Text><DefinedTermEn>annuitant</DefinedTermEn> means</Text>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305637" lims:id="305637">
+          <Label>(a)</Label>
+          <Text>until such time after maturity of the plan as an individual’s spouse or common-law partner becomes entitled, as a consequence of the individual’s death, to receive benefits to be paid out of or under the plan, the individual referred to in paragraph (a) or (b) of the definition <DefinedTermEn>retirement savings plan</DefinedTermEn> in this subsection for whom, under a retirement savings plan, a retirement income is to be provided, and</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305638" lims:id="305638">
+          <Label>(b)</Label>
+          <Text>thereafter, the spouse or common-law partner referred to in paragraph (a); (<DefinedTermFr>rentier</DefinedTermFr>)</Text>
+        </Paragraph>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305639" lims:id="305639">
+        <Text><DefinedTermEn>benefit</DefinedTermEn> includes any amount received out of or under a retirement savings plan other than</Text>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305640" lims:id="305640">
+          <Label>(a)</Label>
+          <Text>the portion thereof received by a person other than the annuitant that can reasonably be regarded as part of the amount included in computing the income of an annuitant by virtue of subsections 146(8.8) and 146(8.9),</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305641" lims:id="305641">
+          <Label>(b)</Label>
+          <Text>an amount received by the person with whom the annuitant has the contract or arrangement described in the definition <DefinedTermEn>retirement savings plan</DefinedTermEn> in this subsection as a premium under the plan,</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305642" lims:id="305642">
+          <Label>(b.1)</Label>
+          <Text>an amount in respect of which the annuitant pays a tax under Part XI.01, unless the tax is waived, cancelled or refunded,</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305643" lims:id="305643">
+          <Label>(c)</Label>
+          <Text>an amount, or part thereof, received in respect of the income of the trust under the plan for a taxation year for which the trust was not exempt from tax by virtue of paragraph 146(4)(c), and</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305644" lims:id="305644">
+          <Label>(c.1)</Label>
+          <Text>a tax-paid amount described in paragraph (b) of the definition <DefinedTermEn>tax-paid amount</DefinedTermEn> in this subsection that relates to interest or another amount included in computing income otherwise than because of this section</Text>
+        </Paragraph>
+        <ContinuedDefinition lims:inforce-start-date="2017-12-14" lims:fid="305645" lims:id="305645">
+          <Text>and without restricting the generality of the foregoing includes any amount paid to an annuitant under the plan</Text>
+        </ContinuedDefinition>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305646" lims:id="305646">
+          <Label>(d)</Label>
+          <Text>in accordance with the terms of the plan,</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305647" lims:id="305647">
+          <Label>(e)</Label>
+          <Text>resulting from an amendment to or modification of the plan, or</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305648" lims:id="305648">
+          <Label>(f)</Label>
+          <Text>resulting from the termination of the plan; (<DefinedTermFr>prestation</DefinedTermFr>)</Text>
+        </Paragraph>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305649" lims:id="305649">
+        <Text><DefinedTermEn>earned income</DefinedTermEn> of a taxpayer for a taxation year means the amount, if any, by which the total of all amounts each of which is</Text>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305650" lims:id="305650">
+          <Label>(a)</Label>
+          <Text>the taxpayer’s income (other than an amount described in paragraph 12(1)(z)) for a period in the year throughout which the taxpayer was resident in Canada from</Text>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305651" lims:id="305651">
+            <Label>(i)</Label>
+            <Text>an office or employment, determined without reference to paragraphs 8(1)(c), 8(1)(m) and 8(1)(m.2),</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305652" lims:id="305652">
+            <Label>(ii)</Label>
+            <Text>a business carried on by the taxpayer either alone or as a partner actively engaged in the business, or</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305653" lims:id="305653">
+            <Label>(iii)</Label>
+            <Text>property, where the income is derived from the rental of real or immovable property or from royalties in respect of a work or invention of which the taxpayer was the author or inventor,</Text>
+          </Subparagraph>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305654" lims:id="305654">
+          <Label>(b)</Label>
+          <Text>an amount included under paragraph 56(1)(b), (c.2), (g) or (o) or subparagraph 56(1)(r)(v) in computing the taxpayer’s income for a period in the year throughout which the taxpayer was resident in Canada,</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2022-06-23" lims:enacted-date="2022-06-23" lims:fid="1367367" lims:id="1367367">
+          <Label>(b.01)</Label>
+          <Text>an amount included under paragraph 56(1)(n) in computing the taxpayer’s income for a period in the year throughout which the taxpayer was resident in Canada in connection with a program that consists primarily of research and does not lead to a diploma from a college or a collège d’enseignement général et professionnel, or a bachelor, masters, doctoral or equivalent degree,</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305655" lims:id="305655">
+          <Label>(b.1)</Label>
+          <Text>an amount received by the taxpayer in the year and at a time when the taxpayer is resident in Canada as, on account of, in lieu of payment of or in satisfaction of, a disability pension under the <XRefExternal reference-type="act" link="C-8">Canada Pension Plan</XRefExternal> or a provincial pension plan as defined in section 3 of that Act,</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305656" lims:id="305656">
+          <Label>(b.2)</Label>
+          <Text>the taxpayer’s qualifying performance income (as defined in subsection 143.1(1)) that is deemed by paragraph 143.1(1.2)(c) to be income of an amateur athlete trust for the year,</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305657" lims:id="305657">
+          <Label>(c)</Label>
+          <Text>the taxpayer’s income (other than an amount described in paragraph 12(1)(z)) for a period in the year throughout which the taxpayer was not resident in Canada from</Text>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305658" lims:id="305658">
+            <Label>(i)</Label>
+            <Text>the duties of an office or employment performed by the taxpayer in Canada, determined without reference to paragraphs 8(1)(c), 8(1)(m) and 8(1)(m.2), or</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305659" lims:id="305659">
+            <Label>(ii)</Label>
+            <Text>a business carried on by the taxpayer in Canada, either alone or as a partner actively engaged in the business</Text>
+          </Subparagraph>
+          <ContinuedParagraph lims:inforce-start-date="2017-12-14" lims:fid="305660" lims:id="305660">
+            <Text>except to the extent that the income is exempt from income tax in Canada by reason of a provision contained in a tax convention or agreement with another country that has the force of law in Canada, or</Text>
+          </ContinuedParagraph>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305661" lims:id="305661">
+          <Label>(d)</Label>
+          <Text>in the case of a taxpayer described in subsection 115(2), the total that would be determined under paragraph 115(2)(e) in respect of the taxpayer for the year if</Text>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305662" lims:id="305662">
+            <Label>(i)</Label>
+            <Text>that paragraph were read without reference to subparagraph 115(2)(e)(iv), and</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305663" lims:id="305663">
+            <Label>(ii)</Label>
+            <Text>subparagraph 115(2)(e)(ii) were read without any reference therein to paragraph 56(1)(n),</Text>
+          </Subparagraph>
+          <ContinuedParagraph lims:inforce-start-date="2017-12-14" lims:fid="305664" lims:id="305664">
+            <Text>except any part thereof included in the total determined under this definition by reason of paragraph (c) or exempt from income tax in Canada by reason of a provision contained in a tax convention or agreement with another country that has the force of law in Canada,</Text>
+          </ContinuedParagraph>
+        </Paragraph>
+        <ContinuedDefinition lims:inforce-start-date="2017-12-14" lims:fid="305665" lims:id="305665">
+          <Text>exceeds the total of all amounts each of which is</Text>
+        </ContinuedDefinition>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305666" lims:id="305666">
+          <Label>(e)</Label>
+          <Text>the taxpayer’s loss for a period in the year throughout which the taxpayer was resident in Canada from</Text>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305667" lims:id="305667">
+            <Label>(i)</Label>
+            <Text>a business carried on by the taxpayer, either alone or as a partner actively engaged in the business, or</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305668" lims:id="305668">
+            <Label>(ii)</Label>
+            <Text>property, where the loss is sustained from the rental of real or immovable property,</Text>
+          </Subparagraph>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305669" lims:id="305669">
+          <Label>(f)</Label>
+          <Text>an amount deductible under paragraph 60(b), or deducted under paragraph 60(c.2), in computing the taxpayer’s income for the year, or</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305670" lims:id="305670">
+          <Label>(g)</Label>
+          <Text>the taxpayer’s loss for a period in the year throughout which the taxpayer was not resident in Canada from a business carried on by the taxpayer in Canada, either alone or as a partner actively engaged in the business,</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305671" lims:id="305671">
+          <Label>(h)</Label>
+          <Text>
+            <Repealed>[Repealed, 2016, c. 12, s. 52]</Repealed>
+          </Text>
+        </Paragraph>
+        <ContinuedDefinition lims:inforce-start-date="2017-12-14" lims:fid="305672" lims:id="305672">
+          <Text>and, for the purposes of this definition, the income or loss of a taxpayer for any period in a taxation year is the taxpayer’s income or loss computed as though that period were the whole taxation year; (<DefinedTermFr>revenu gagné</DefinedTermFr>)</Text>
+        </ContinuedDefinition>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305673" lims:id="305673">
+        <Text><DefinedTermEn>issuer</DefinedTermEn> means the person referred to in the definition <DefinedTermEn>retirement savings plan</DefinedTermEn> in this subsection with whom an annuitant has a contract or arrangement that is a retirement savings plan; (<DefinedTermFr>émetteur</DefinedTermFr>)</Text>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305674" lims:id="305674">
+        <Text><DefinedTermEn>maturity</DefinedTermEn> means the date fixed under a retirement savings plan for the commencement of any retirement income the payment of which is provided for by the plan; (<DefinedTermFr>échéance</DefinedTermFr>)</Text>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305675" lims:id="305675">
+        <Text><DefinedTermEn>net past service pension adjustment</DefinedTermEn> of a taxpayer for a taxation year means the positive or negative amount determined by the formula</Text>
+        <FormulaGroup lims:inforce-start-date="2017-12-14" lims:fid="305676" lims:id="305676">
+          <Formula lims:inforce-start-date="2017-12-14" lims:fid="305677" lims:id="305677">
+            <FormulaText>P + Q - G</FormulaText>
+          </Formula>
+          <FormulaConnector>where</FormulaConnector>
+          <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305678" lims:id="305678">
+            <FormulaTerm>P</FormulaTerm>
+            <Text>is the total of all amounts each of which is the taxpayer’s past service pension adjustment for the year in respect of an employer,</Text>
+          </FormulaDefinition>
+          <FormulaDefinition lims:inforce-start-date="2023-06-22" lims:enacted-date="2023-06-22" lims:fid="305679" lims:id="1416115">
+            <FormulaTerm>Q</FormulaTerm>
+            <Text>is the total of all amounts each of which is the amount of a contribution made under subsection 147.1(20), or deemed by prescribed rules to have been made, in respect of the taxpayer for the immediately preceding year, and</Text>
+          </FormulaDefinition>
+          <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305680" lims:id="305680">
+            <FormulaTerm>G</FormulaTerm>
+            <Text>is the amount of the taxpayer’s PSPA withdrawals for the year, determined as of the end of the year in accordance with prescribed rules; (<DefinedTermFr>facteur d’équivalence pour services passés net</DefinedTermFr>)</Text>
+          </FormulaDefinition>
+        </FormulaGroup>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305681" lims:id="305681">
+        <Text><DefinedTermEn>non-qualified investment</DefinedTermEn> has the same meaning as in subsection 207.01(1); (<DefinedTermFr>placement non admissible</DefinedTermFr>)</Text>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305682" lims:id="305682">
+        <Text><DefinedTermEn>premium</DefinedTermEn> means any periodic or other amount paid or payable under a retirement savings plan</Text>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305683" lims:id="305683">
+          <Label>(a)</Label>
+          <Text>as consideration for any contract referred to in paragraph (a) of the definition <DefinedTermEn>retirement savings plan</DefinedTermEn> to pay a retirement income, or</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305684" lims:id="305684">
+          <Label>(b)</Label>
+          <Text>as a contribution or deposit referred to in paragraph (b) of that definition for the purpose stated in that paragraph</Text>
+        </Paragraph>
+        <ContinuedDefinition lims:inforce-start-date="2020-01-01" lims:enacted-date="2019-06-21" lims:fid="305685" lims:id="1215182">
+          <Text>but except for the purposes of paragraph (b) of the definition <DefinitionRef>benefit</DefinitionRef> in this subsection, paragraph (2)(b.3), subsection (22) and the definition <DefinitionRef>excluded premium</DefinitionRef> in subsection 146.02(1), does not include a repayment to which paragraph (b) or (d) of the definition <DefinitionRef>excluded withdrawal</DefinitionRef> in subsection 146.01(1), or paragraph (b) of the definition <DefinitionRef>excluded withdrawal</DefinitionRef> in subsection 146.02(1), applies or an amount that is designated under subsection 146.01(3) or 146.02(3); (<DefinedTermFr>prime</DefinedTermFr>)</Text>
+        </ContinuedDefinition>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305686" lims:id="305686">
+        <Text><DefinedTermEn>qualified investment</DefinedTermEn> for a trust governed by a registered retirement savings plan means</Text>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305687" lims:id="305687">
+          <Label>(a)</Label>
+          <Text>an investment that would be described by any of paragraphs (a) to (d), (f) and (g) of the definition <DefinedTermEn>qualified investment</DefinedTermEn> in section 204 if the reference in that definition to “a trust governed by a deferred profit sharing plan or revoked plan” were read as a reference to “a trust governed by a registered retirement savings plan” and if that definition were read without reference to the words “with the exception of excluded property in relation to the trust”,</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305688" lims:id="305688">
+          <Label>(b)</Label>
+          <Text>
+            <Repealed>[Repealed, 2007, c. 29, s. 17]</Repealed>
+          </Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305689" lims:id="305689">
+          <Label>(c)</Label>
+          <Text>an annuity described in the definition <DefinedTermEn>retirement income</DefinedTermEn> in respect of the annuitant under the plan, if purchased from a licensed annuities provider,</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305690" lims:id="305690">
+          <Label>(c.1)</Label>
+          <Text>a contract for an annuity issued by a licensed annuities provider where</Text>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305691" lims:id="305691">
+            <Label>(i)</Label>
+            <Text>the trust is the only person who, disregarding any subsequent transfer of the contract by the trust, is or may become entitled to any annuity payments under the contract, and</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305692" lims:id="305692">
+            <Label>(ii)</Label>
+            <Text>the holder of the contract has a right to surrender the contract at any time for an amount that would, if reasonable sales and administration charges were ignored, approximate the value of funds that could otherwise be applied to fund future periodic payments under the contract,</Text>
+          </Subparagraph>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305693" lims:id="305693">
+          <Label>(c.2)</Label>
+          <Text>a contract for an annuity issued by a licensed annuities provider where</Text>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305694" lims:id="305694">
+            <Label>(i)</Label>
+            <Text>annual or more frequent periodic payments are or may be made under the contract to the holder of the contract,</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305695" lims:id="305695">
+            <Label>(ii)</Label>
+            <Text>the trust is the only person who, disregarding any subsequent transfer of the contract by the trust, is or may become entitled to any annuity payments under the contract,</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305696" lims:id="305696">
+            <Label>(iii)</Label>
+            <Text>neither the time nor the amount of any payment under the contract may vary because of the length of any life, other than the life of the annuitant under the plan (in this definition referred to as the “RRSP annuitant”),</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305697" lims:id="305697">
+            <Label>(iv)</Label>
+            <Text>the day on which the periodic payments began or are to begin (in this paragraph referred to as the “start date”) is not later than the end of the year in which the RRSP annuitant attains 72 years of age,</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305698" lims:id="305698">
+            <Label>(v)</Label>
+            <Text>either</Text>
+            <Clause lims:inforce-start-date="2017-12-14" lims:fid="305699" lims:id="305699">
+              <Label>(A)</Label>
+              <Text>the periodic payments are payable for the life of the RRSP annuitant and either there is no guaranteed period under the contract or there is a guaranteed period that begins at the start date and does not exceed a term equal to 90 years minus the lesser of</Text>
+              <Subclause lims:inforce-start-date="2017-12-14" lims:fid="305700" lims:id="305700">
+                <Label>(I)</Label>
+                <Text>the age in whole years at the start date of the RRSP annuitant (determined on the assumption that the RRSP annuitant is alive at the start date), and</Text>
+              </Subclause>
+              <Subclause lims:inforce-start-date="2017-12-14" lims:fid="305701" lims:id="305701">
+                <Label>(II)</Label>
+                <Text>the age in whole years at the start date of a spouse or common-law partner of the RRSP annuitant (determined on the assumption that a spouse or common-law partner of the RRSP annuitant at the time the contract was acquired is a spouse or common-law partner of the RRSP annuitant at the start date), or</Text>
+              </Subclause>
+            </Clause>
+            <Clause lims:inforce-start-date="2017-12-14" lims:fid="305702" lims:id="305702">
+              <Label>(B)</Label>
+              <Text>the periodic payments are payable for a term equal to</Text>
+              <Subclause lims:inforce-start-date="2017-12-14" lims:fid="305703" lims:id="305703">
+                <Label>(I)</Label>
+                <Text>90 years minus the age described in subclause (I), or</Text>
+              </Subclause>
+              <Subclause lims:inforce-start-date="2017-12-14" lims:fid="305704" lims:id="305704">
+                <Label>(II)</Label>
+                <Text>90 years minus the age described in subclause (II), and</Text>
+              </Subclause>
+            </Clause>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305705" lims:id="305705">
+            <Label>(vi)</Label>
+            <Text>the periodic payments</Text>
+            <Clause lims:inforce-start-date="2017-12-14" lims:fid="305706" lims:id="305706">
+              <Label>(A)</Label>
+              <Text>are equal, or</Text>
+            </Clause>
+            <Clause lims:inforce-start-date="2017-12-14" lims:fid="305707" lims:id="305707">
+              <Label>(B)</Label>
+              <Text>are not equal solely because of one or more adjustments that would, if the contract were an annuity under a retirement savings plan, be in accordance with subparagraphs 146(3)(b)(iii) to 146(3)(b)(v) or that arise because of a uniform reduction in the entitlement to the periodic payments as a consequence of a partial surrender of rights to the periodic payments, and</Text>
+            </Clause>
+          </Subparagraph>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305708" lims:id="305708">
+          <Label>(d)</Label>
+          <Text>such other investments as may be prescribed by regulations of the Governor in Council made on the recommendation of the Minister of Finance; (<DefinedTermFr>placement admissible</DefinedTermFr>)</Text>
+        </Paragraph>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305709" lims:id="305709">
+        <Text><DefinedTermEn>RRSP deduction limit</DefinedTermEn> of a taxpayer for a taxation year means the amount determined by the formula</Text>
+        <FormulaGroup lims:inforce-start-date="2017-12-14" lims:fid="305710" lims:id="305710">
+          <Formula lims:inforce-start-date="2017-12-14" lims:fid="305711" lims:id="305711">
+            <FormulaText>A + B + R - C</FormulaText>
+          </Formula>
+          <FormulaConnector>where</FormulaConnector>
+          <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305712" lims:id="305712">
+            <FormulaTerm>A</FormulaTerm>
+            <Text>is the taxpayer’s unused RRSP deduction room at the end of the preceding taxation year,</Text>
+          </FormulaDefinition>
+          <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305713" lims:id="305713">
+            <FormulaTerm>B</FormulaTerm>
+            <Text>is the amount, if any, by which</Text>
+            <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305714" lims:id="305714">
+              <Label>(a)</Label>
+              <Text>the lesser of the RRSP dollar limit for the year and 18% of the taxpayer’s earned income for the preceding taxation year</Text>
+            </FormulaParagraph>
+            <ContinuedFormulaParagraph>
+              <Text>exceeds the total of all amounts each of which is</Text>
+            </ContinuedFormulaParagraph>
+            <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305715" lims:id="305715">
+              <Label>(b)</Label>
+              <Text>the taxpayer’s pension adjustment for the preceding taxation year in respect of an employer, or</Text>
+            </FormulaParagraph>
+            <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305716" lims:id="305716">
+              <Label>(c)</Label>
+              <Text>a prescribed amount in respect of the taxpayer for the year,</Text>
+            </FormulaParagraph>
+          </FormulaDefinition>
+          <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305717" lims:id="305717">
+            <FormulaTerm>C</FormulaTerm>
+            <Text>is the taxpayer’s net past service pension adjustment for the year, and</Text>
+          </FormulaDefinition>
+          <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305718" lims:id="305718">
+            <FormulaTerm>R</FormulaTerm>
+            <Text>is the taxpayer’s total pension adjustment reversal for the year; (<DefinedTermFr>maximum déductible au titre des REER</DefinedTermFr>)</Text>
+          </FormulaDefinition>
+        </FormulaGroup>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305719" lims:id="305719">
+        <Text><DefinedTermEn>RRSP dollar limit</DefinedTermEn> for a calendar year means</Text>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305720" lims:id="305720">
+          <Label>(a)</Label>
+          <Text>for years other than 1996 and 2003, the money purchase limit for the preceding year,</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305721" lims:id="305721">
+          <Label>(b)</Label>
+          <Text>for 1996, $13,500, and</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305722" lims:id="305722">
+          <Label>(c)</Label>
+          <Text>for 2003, $14,500; (<DefinedTermFr>plafond REER</DefinedTermFr>)</Text>
+        </Paragraph>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305723" lims:id="305723">
+        <Text><DefinedTermEn>refund of premiums</DefinedTermEn> means any amount paid out of or under a registered retirement savings plan (other than a tax-paid amount in respect of the plan) as a consequence of the death of the annuitant under the plan,</Text>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305724" lims:id="305724">
+          <Label>(a)</Label>
+          <Text>to an individual who was, immediately before the death, a spouse or common-law partner of the annuitant, where the annuitant died before the maturity of the plan, or</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305725" lims:id="305725">
+          <Label>(b)</Label>
+          <Text>to a child or grandchild of the annuitant who was, immediately before the death, financially dependent on the annuitant for support; (<DefinedTermFr>remboursement de primes</DefinedTermFr>)</Text>
+        </Paragraph>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305726" lims:id="305726">
+        <Text><DefinedTermEn>registered retirement savings plan</DefinedTermEn> means a retirement savings plan accepted by the Minister for registration for the purposes of this Act as complying with the requirements of this section; (<DefinedTermFr>régime enregistré d’épargne-retraite</DefinedTermFr>)</Text>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305727" lims:id="305727">
+        <Text><DefinedTermEn>retirement income</DefinedTermEn> means</Text>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305728" lims:id="305728">
+          <Label>(a)</Label>
+          <Text>an annuity commencing at maturity, and with or without a guaranteed term commencing at maturity, not exceeding the term referred to in paragraph (b), or, in the case of a plan entered into before March 14, 1957, not exceeding 20 years, payable to</Text>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305729" lims:id="305729">
+            <Label>(i)</Label>
+            <Text>the annuitant for the annuitant’s life, or</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305730" lims:id="305730">
+            <Label>(ii)</Label>
+            <Text>the annuitant for the lives, jointly, of the annuitant and the annuitant’s spouse and to the survivor of them for the survivor’s life, or</Text>
+          </Subparagraph>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305731" lims:id="305731">
+          <Label>(b)</Label>
+          <Text>an annuity commencing at maturity, payable to the annuitant, or to the annuitant for the annuitant’s life and to the spouse after the annuitant’s death, for a term of years equal to 90 minus either</Text>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305732" lims:id="305732">
+            <Label>(i)</Label>
+            <Text>the age in whole years of the annuitant at the maturity of the plan, or</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305733" lims:id="305733">
+            <Label>(ii)</Label>
+            <Text>where the annuitant’s spouse is younger than the annuitant and the annuitant so elects, the age in whole years of the spouse at the maturity of the plan,</Text>
+          </Subparagraph>
+          <ContinuedParagraph lims:inforce-start-date="2017-12-14" lims:fid="305734" lims:id="305734">
+            <Text>issued by a person described in the definition <DefinedTermEn>retirement savings plan</DefinedTermEn> in this subsection with whom an individual may have a contract or arrangement that is a retirement savings plan,</Text>
+          </ContinuedParagraph>
+        </Paragraph>
+        <ContinuedDefinition lims:inforce-start-date="2017-12-14" lims:fid="305735" lims:id="305735">
+          <Text>or any combination thereof; (<DefinedTermFr>revenu de retraite</DefinedTermFr>)</Text>
+        </ContinuedDefinition>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305736" lims:id="305736">
+        <Text><DefinedTermEn>retirement savings plan</DefinedTermEn> means</Text>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305737" lims:id="305737">
+          <Label>(a)</Label>
+          <Text>a contract between an individual and a person licensed or otherwise authorized under the laws of Canada or a province to carry on in Canada an annuities business, under which, in consideration of payment by the individual or the individual’s spouse or common-law partner of any periodic or other amount as consideration under the contract, a retirement income commencing at maturity is to be provided for the individual, or</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305738" lims:id="305738">
+          <Label>(b)</Label>
+          <Text>an arrangement under which payment is made by an individual or the individual’s spouse or common-law partner</Text>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305739" lims:id="305739">
+            <Label>(i)</Label>
+            <Text>in trust to a corporation licensed or otherwise authorized under the laws of Canada or a province to carry on in Canada the business of offering to the public its services as trustee, of any periodic or other amount as a contribution under the trust,</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305740" lims:id="305740">
+            <Label>(ii)</Label>
+            <Text>to a corporation approved by the Governor in Council for the purposes of this section that is licensed or otherwise authorized under the laws of Canada or a province to issue investment contracts providing for the payment to or to the credit of the holder thereof of a fixed or determinable amount at maturity, of any periodic or other amount as a contribution under such a contract between the individual and that corporation, or</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305741" lims:id="305741">
+            <Label>(iii)</Label>
+            <Text>as a deposit with a branch or office, in Canada, of</Text>
+            <Clause lims:inforce-start-date="2017-12-14" lims:fid="305742" lims:id="305742">
+              <Label>(A)</Label>
+              <Text>a person who is, or is eligible to become, a member of the Canadian Payments Association, or</Text>
+            </Clause>
+            <Clause lims:inforce-start-date="2017-12-14" lims:fid="305743" lims:id="305743">
+              <Label>(B)</Label>
+              <Text>a credit union that is a shareholder or member of a body corporate referred to as a “central” for the purposes of the <XRefExternal reference-type="act" link="C-21">Canadian Payments Act</XRefExternal>,</Text>
+            </Clause>
+            <ContinuedSubparagraph lims:inforce-start-date="2017-12-14" lims:fid="305744" lims:id="305744">
+              <Text>(in this section referred to as a “depositary”)</Text>
+            </ContinuedSubparagraph>
+          </Subparagraph>
+          <ContinuedParagraph lims:inforce-start-date="2017-12-14" lims:fid="305745" lims:id="305745">
+            <Text>to be used, invested or otherwise applied by that corporation or that depositary, as the case may be, for the purpose of providing for the individual, commencing at maturity, a retirement income; (<DefinedTermFr>régime d’épargne-retraite</DefinedTermFr>)</Text>
+          </ContinuedParagraph>
+        </Paragraph>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305746" lims:id="305746">
+        <Text><DefinedTermEn>spousal or common-law partner plan</DefinedTermEn>, in relation to a taxpayer, means</Text>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305747" lims:id="305747">
+          <Label>(a)</Label>
+          <Text>a registered retirement savings plan</Text>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305748" lims:id="305748">
+            <Label>(i)</Label>
+            <Text>to which the taxpayer has, at a time when the taxpayer’s spouse or common-law partner was the annuitant under the plan, paid a premium, or</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305749" lims:id="305749">
+            <Label>(ii)</Label>
+            <Text>that has received a payment out of or a transfer from a registered retirement savings plan or a registered retirement income fund that was a spousal or common-law partner plan in relation to the taxpayer, or</Text>
+          </Subparagraph>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305750" lims:id="305750">
+          <Label>(b)</Label>
+          <Text>a registered retirement income fund that has received a payment out of or a transfer from a spousal or common-law partner plan in relation to the taxpayer; (<DefinedTermFr>régime au profit de l’époux ou du conjoint de fait</DefinedTermFr>)</Text>
+        </Paragraph>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305751" lims:id="305751">
+        <Text>
+          <DefinedTermEn>spousal plan</DefinedTermEn>
+          <Repealed>[Repealed, 2001, c. 17, s. 246]</Repealed>
+        </Text>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305752" lims:id="305752">
+        <Text><DefinedTermEn>tax-paid amount</DefinedTermEn> paid to a person in respect of a registered retirement saving plan means</Text>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305753" lims:id="305753">
+          <Label>(a)</Label>
+          <Text>an amount paid to the person in respect of the amount that would, if this Act were read without reference to subsection 104(6), be income of a trust governed by the plan for a taxation year for which the trust was subject to tax because of paragraph 146(4)(c), or</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305754" lims:id="305754">
+          <Label>(b)</Label>
+          <Text>where</Text>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305755" lims:id="305755">
+            <Label>(i)</Label>
+            <Text>the plan is a deposit with a depositary referred to in clause (b)(iii)(B) of the definition <DefinedTermEn>retirement savings plan</DefinedTermEn> in this subsection, and</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305756" lims:id="305756">
+            <Label>(ii)</Label>
+            <Text>an amount is received at any time out of or under the plan by the person,</Text>
+          </Subparagraph>
+          <ContinuedParagraph lims:inforce-start-date="2017-12-14" lims:fid="305757" lims:id="305757">
+            <Text>the portion of the amount that can reasonably be considered to relate to interest or another amount in respect of the deposit that was required to be included in computing the income of any person (other than the annuitant) otherwise than because of this section; (<DefinedTermFr>montant libéré d’impôt</DefinedTermFr>)</Text>
+          </ContinuedParagraph>
+        </Paragraph>
+      </Definition>
+      <Definition lims:inforce-start-date="2017-12-14" lims:fid="305758" lims:id="305758">
+        <Text><DefinedTermEn>unused RRSP deduction room</DefinedTermEn> of a taxpayer at the end of a taxation year means,</Text>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305759" lims:id="305759">
+          <Label>(a)</Label>
+          <Text>for taxation years ending before 1991, nil, and</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305760" lims:id="305760">
+          <Label>(b)</Label>
+          <Text>for taxation years that end after 1990, the amount, which can be positive or negative, determined by the formula</Text>
+          <FormulaGroup lims:inforce-start-date="2017-12-14" lims:fid="305761" lims:id="305761">
+            <Formula lims:inforce-start-date="2017-12-14" lims:fid="305762" lims:id="305762">
+              <FormulaText>A + B + R - (C + D)</FormulaText>
+            </Formula>
+            <FormulaConnector>where</FormulaConnector>
+            <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305763" lims:id="305763">
+              <FormulaTerm>A</FormulaTerm>
+              <Text>is the taxpayer’s unused RRSP deduction room at the end of the preceding taxation year,</Text>
+            </FormulaDefinition>
+            <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305764" lims:id="305764">
+              <FormulaTerm>B</FormulaTerm>
+              <Text>is the amount, if any, by which</Text>
+              <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305765" lims:id="305765">
+                <Label>(i)</Label>
+                <Text>the lesser of the RRSP dollar limit for the year and 18% of the taxpayer’s earned income for the preceding taxation year</Text>
+              </FormulaParagraph>
+              <ContinuedFormulaParagraph>
+                <Text>exceeds the total of all amounts each of which is</Text>
+              </ContinuedFormulaParagraph>
+              <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305766" lims:id="305766">
+                <Label>(ii)</Label>
+                <Text>the taxpayer’s pension adjustment for the preceding taxation year in respect of an employer, or</Text>
+              </FormulaParagraph>
+              <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305767" lims:id="305767">
+                <Label>(iii)</Label>
+                <Text>a prescribed amount in respect of the taxpayer for the year,</Text>
+              </FormulaParagraph>
+            </FormulaDefinition>
+            <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305768" lims:id="305768">
+              <FormulaTerm>C</FormulaTerm>
+              <Text>is the taxpayer’s net past service pension adjustment for the year,</Text>
+            </FormulaDefinition>
+            <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305769" lims:id="305769">
+              <FormulaTerm>D</FormulaTerm>
+              <Text>is the total of all amounts each of which is</Text>
+              <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305770" lims:id="305770">
+                <Label>(i)</Label>
+                <Text>an amount deducted by the taxpayer under any of subsections (5) to (5.2), in computing the taxpayer’s income for the year,</Text>
+              </FormulaParagraph>
+              <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305771" lims:id="305771">
+                <Label>(ii)</Label>
+                <Text>an amount deducted by the taxpayer under paragraph 10 of Article XVIII of the <XRefExternal reference-type="other">Canada-United States Tax Convention</XRefExternal> signed at Washington on September 26, 1980 or a similar provision in another tax treaty, in computing the taxpayer’s taxable income for the year,</Text>
+              </FormulaParagraph>
+              <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305772" lims:id="305772">
+                <Label>(iii)</Label>
+                <Text>a contribution made by an employer in the year to a pooled registered pension plan in respect of the taxpayer, or</Text>
+              </FormulaParagraph>
+              <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305773" lims:id="305773">
+                <Label>(iv)</Label>
+                <Text>the amount, if any, by which the taxpayer’s exempt-income contribution amount (as defined in subsection 147.5(1)) for the year exceeds the taxpayer’s unused non-deductible PRPP room (as defined in subsection 147.5(1)) at the end of the preceding taxation year, and</Text>
+              </FormulaParagraph>
+            </FormulaDefinition>
+            <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305774" lims:id="305774">
+              <FormulaTerm>R</FormulaTerm>
+              <Text>is the taxpayer’s total pension adjustment reversal for the year. (<DefinedTermFr>déductions inutilisées au titre des REER</DefinedTermFr>)</Text>
+            </FormulaDefinition>
+          </FormulaGroup>
+        </Paragraph>
+      </Definition>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305775" lims:id="305775">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305776" lims:id="305776">Restriction — financially dependent</MarginalNote>
+      <Label>(1.1)</Label>
+      <Text>For the purposes of paragraph (b) of the definition <DefinedTermEn>refund of premiums</DefinedTermEn> in subsection (1), clause 60(l)(v)(B.01), the definition <DefinedTermEn>eligible individual</DefinedTermEn> in subsection 60.02(1), subparagraph 104(27)(e)(i) and section 147.5, it is assumed, unless the contrary is established, that an individual’s child or grandchild was not financially dependent on the individual for support immediately before the individual’s death if the income of the child or grandchild for the taxation year preceding the taxation year in which the individual died exceeded the amount determined by the formula</Text>
+      <FormulaGroup lims:inforce-start-date="2017-12-14" lims:fid="305777" lims:id="305777">
+        <Formula lims:inforce-start-date="2017-12-14" lims:fid="305778" lims:id="305778">
+          <FormulaText>A + B</FormulaText>
+        </Formula>
+        <FormulaConnector>where</FormulaConnector>
+        <FormulaDefinition lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="305779" lims:id="1310530">
+          <FormulaTerm>A</FormulaTerm>
+          <Text>is the amount determined for F in subsection 118(1.1) for that preceding taxation year; and</Text>
+        </FormulaDefinition>
+        <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305780" lims:id="305780">
+          <FormulaTerm>B</FormulaTerm>
+          <Text>is nil, unless the financial dependency was because of mental or physical infirmity, in which case it is $6,180 adjusted for each such preceding taxation year that is after 2002 in the manner set out in section 117.1.</Text>
+        </FormulaDefinition>
+      </FormulaGroup>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305781" lims:id="305781">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305782" lims:id="305782">Acceptance of plan for registration</MarginalNote>
+      <Label>(2)</Label>
+      <Text>The Minister shall not accept for registration for the purposes of this Act any retirement savings plan unless, in the Minister’s opinion, it complies with the following conditions:</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305783" lims:id="305783">
+        <Label>(a)</Label>
+        <Text>the plan does not provide for the payment of any benefit before maturity except</Text>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305784" lims:id="305784">
+          <Label>(i)</Label>
+          <Text>a refund of premiums, and</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305785" lims:id="305785">
+          <Label>(ii)</Label>
+          <Text>a payment to the annuitant;</Text>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305786" lims:id="305786">
+        <Label>(b)</Label>
+        <Text>the plan does not provide for the payment of any benefit after maturity except</Text>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305787" lims:id="305787">
+          <Label>(i)</Label>
+          <Text>by way of retirement income to the annuitant,</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305788" lims:id="305788">
+          <Label>(ii)</Label>
+          <Text>to the annuitant in full or partial commutation of retirement income under the plan, and</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305789" lims:id="305789">
+          <Label>(iii)</Label>
+          <Text>in respect of a commutation referred to in paragraph 146(2)(c.2);</Text>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305790" lims:id="305790">
+        <Label>(b.1)</Label>
+        <Text>the plan does not provide for a payment to the annuitant of a retirement income except by way of equal annual or more frequent periodic payments until such time as there is a payment in full or partial commutation of the retirement income and, where that commutation is partial, equal annual or more frequent periodic payments thereafter;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305791" lims:id="305791">
+        <Label>(b.2)</Label>
+        <Text>the plan does not provide for periodic payments in a year under an annuity after the death of the first annuitant, the total of which exceeds the total of the payments under the annuity in a year before that death;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305792" lims:id="305792">
+        <Label>(b.3)</Label>
+        <Text>the plan does not provide for the payment of any premium after maturity;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305793" lims:id="305793">
+        <Label>(b.4)</Label>
+        <Text>the plan does not provide for maturity after the end of the year in which the annuitant attains 71 years of age;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305794" lims:id="305794">
+        <Label>(c)</Label>
+        <Text>the plan provides that retirement income under the plan may not be assigned in whole or in part;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305795" lims:id="305795">
+        <Label>(c.1)</Label>
+        <Text>notwithstanding paragraph 146(2)(a), the plan permits the payment of an amount to a taxpayer where the amount is paid to reduce the amount of tax otherwise payable under Part X.1 by the taxpayer;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305796" lims:id="305796">
+        <Label>(c.2)</Label>
+        <Text>the plan requires the commutation of each annuity payable thereunder that would otherwise become payable to a person other than an annuitant under the plan;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305797" lims:id="305797">
+        <Label>(c.3)</Label>
+        <Text>the plan, where it involves a depositary, includes provisions stipulating that</Text>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305798" lims:id="305798">
+          <Label>(i)</Label>
+          <Text>the depositary has no right of offset as regards the property held under the plan in connection with any debt or obligation owing to the depositary, and</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305799" lims:id="305799">
+          <Label>(ii)</Label>
+          <Text>the property held under the plan cannot be pledged, assigned or in any way alienated as security for a loan or for any purpose other than that of providing for the annuitant, commencing at maturity, a retirement income; and</Text>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305800" lims:id="305800">
+        <Label>(c.4)</Label>
+        <Text>
+          <Repealed>[Repealed, 2011, c. 24, s. 45]</Repealed>
+        </Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305801" lims:id="305801">
+        <Label>(d)</Label>
+        <Text>the plan in all other respects complies with regulations of the Governor in Council made on the recommendation of the Minister of Finance.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305802" lims:id="305802">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305803" lims:id="305803">Idem</MarginalNote>
+      <Label>(3)</Label>
+      <Text>The Minister may accept for registration for the purposes of this Act any retirement savings plan notwithstanding that the plan</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305804" lims:id="305804">
+        <Label>(a)</Label>
+        <Text>provides for the payment of a benefit after maturity by way of dividend;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305805" lims:id="305805">
+        <Label>(b)</Label>
+        <Text>provides for any annual or more frequent periodic amount payable</Text>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305806" lims:id="305806">
+          <Label>(i)</Label>
+          <Text>to the annuitant referred to in subparagraph (a)(ii) of the definition <DefinedTermEn>retirement income</DefinedTermEn> in subsection 146(1) by way of an annuity described in paragraph (a) of that definition to be reduced, in the event of the death of the annuitant’s spouse or common-law partner during the lifetime of the annuitant, in such manner as to provide for the payment of equal annual or more frequent periodic amounts throughout the lifetime of the annuitant thereafter,</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305807" lims:id="305807">
+          <Label>(ii)</Label>
+          <Text>to any person by way of an annuity, to be reduced if a pension becomes payable to that person under the <XRefExternal reference-type="act" link="O-9">Old Age Security Act</XRefExternal>, by an annual or other periodic amount not exceeding the amount payable to that person in that period under that Act,</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305808" lims:id="305808">
+          <Label>(iii)</Label>
+          <Text>to any person by way of an annuity, to be increased or reduced depending on the increase or reduction in the value of a specified group of assets constituting the assets of a separate and distinct account or fund maintained in respect of a variable annuities business by a person licensed or otherwise authorized under the laws of Canada or a province to carry on in Canada that business,</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305809" lims:id="305809">
+          <Label>(iii.1)</Label>
+          <Text>to any person by way of an annuity under a contract that provides for the increase or reduction of the annuity in accordance only with a change in the interest rate on which the annuity is based, if the interest rate, as increased or reduced, equals or approximates a generally available Canadian market interest rate,</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305810" lims:id="305810">
+          <Label>(iv)</Label>
+          <Text>that may be adjusted annually to reflect</Text>
+          <Clause lims:inforce-start-date="2017-12-14" lims:fid="305811" lims:id="305811">
+            <Label>(A)</Label>
+            <Text>in whole or in part increases in the Consumer Price Index, as published by Statistics Canada under the authority of the <XRefExternal reference-type="act" link="S-19">Statistics Act</XRefExternal>, or</Text>
+          </Clause>
+          <Clause lims:inforce-start-date="2017-12-14" lims:fid="305812" lims:id="305812">
+            <Label>(B)</Label>
+            <Text>increases at a rate specified in the annuity contract, not exceeding 4% per annum, or</Text>
+          </Clause>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305813" lims:id="305813">
+          <Label>(v)</Label>
+          <Text>to the annuitant by way of an annuity to be increased annually to the extent the amount or rate of return that would have been earned on a pool of investment assets (available for purchase by the public and specified in the annuity contract) exceeds an amount or rate specified in the plan and provides that no other increase may be made in the amount payable;</Text>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305814" lims:id="305814">
+        <Label>(d)</Label>
+        <Text>provides for the payment of any amount after the death of an annuitant thereunder;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305815" lims:id="305815">
+        <Label>(e)</Label>
+        <Text>is adjoined to a contract or other arrangement that is not a retirement savings plan; or</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305816" lims:id="305816">
+        <Label>(f)</Label>
+        <Text>contains such other terms and provisions, not inconsistent with this section, as are authorized or permitted by regulations of the Governor in Council made on the recommendation of the Minister of Finance.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305817" lims:id="305817">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305818" lims:id="305818">No tax while trust governed by plan</MarginalNote>
+      <Label>(4)</Label>
+      <Text>Except as provided in subsection 146(10.1), no tax is payable under this Part by a trust on the taxable income of the trust for a taxation year if, throughout the period in the year during which the trust was in existence, the trust was governed by a registered retirement savings plan, except that</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305819" lims:id="305819">
+        <Label>(a)</Label>
+        <Text>if the trust has borrowed money (other than money used in carrying on a business) in the year or has, after June 18, 1971, borrowed money (other than money used in carrying on a business) that it has not repaid before the commencement of the year, tax is payable under this Part by the trust on its taxable income for the year;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305820" lims:id="305820">
+        <Label>(b)</Label>
+        <Text>in any case not described in paragraph 146(4)(a), if the trust has carried on any business or businesses in the year, tax is payable under this Part by the trust on the amount, if any, by which</Text>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305821" lims:id="305821">
+          <Label>(i)</Label>
+          <Text>the amount that its taxable income for the year would be if it had no incomes or losses from sources other than from that business or those businesses, as the case may be,</Text>
+        </Subparagraph>
+        <ContinuedParagraph lims:inforce-start-date="2017-12-14" lims:fid="305822" lims:id="305822">
+          <Text>exceeds</Text>
+        </ContinuedParagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305823" lims:id="305823">
+          <Label>(ii)</Label>
+          <Text>such portion of the amount determined under subparagraph 146(4)(b)(i) in respect of the trust for the year as can reasonably be considered to be income from, or from the disposition of, qualified investments for the trust; and</Text>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305824" lims:id="305824">
+        <Label>(c)</Label>
+        <Text>if the last annuitant under the plan has died, tax is payable under this Part by the trust on its taxable income for each year after the year following the year in which the last annuitant died.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305825" lims:id="305825">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305826" lims:id="305826">Amount of RRSP premiums deductible</MarginalNote>
+      <Label>(5)</Label>
+      <Text>There may be deducted in computing a taxpayer’s income for a taxation year such amount as the taxpayer claims not exceeding the lesser of</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305827" lims:id="305827">
+        <Label>(a)</Label>
+        <Text>the amount, if any, by which the total of all amounts each of which is a premium paid by the taxpayer after 1990 and on or before the day that is 60 days after the end of the year under a registered retirement savings plan under which the taxpayer was the annuitant at the time the premium was paid, other than the portion, if any, of the premium</Text>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305828" lims:id="305828">
+          <Label>(i)</Label>
+          <Text>that was deducted in computing the taxpayer’s income for a preceding taxation year,</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305829" lims:id="305829">
+          <Label>(ii)</Label>
+          <Text>that was designated for any taxation year for the purposes of paragraph 60(j), 60(j.1) or 60(l),</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305830" lims:id="305830">
+          <Label>(iii)</Label>
+          <Text>in respect of which the taxpayer received a payment that was deducted under subsection 146(8.2) in computing the taxpayer’s income for a preceding taxation year,</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305831" lims:id="305831">
+          <Label>(iii.1)</Label>
+          <Text>that was an exempt-income contribution amount (as defined in subsection 147.5(1)) for any taxation year,</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305832" lims:id="305832">
+          <Label>(iv)</Label>
+          <Text>that was deductible under subsection 146(6.1) in computing the taxpayer’s income for any taxation year or</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305833" lims:id="305833">
+          <Label>(iv.1)</Label>
+          <Text>that would be considered to be withdrawn by the taxpayer as an eligible amount (as defined in subsection 146.01(1) or 146.02(1)) less than 90 days after it was paid, if earnings in respect of a registered retirement savings plan were considered to be withdrawn before premiums paid under that plan and premiums were considered to be withdrawn in the order in which they were paid</Text>
+        </Subparagraph>
+        <ContinuedParagraph lims:inforce-start-date="2017-12-14" lims:fid="305834" lims:id="305834">
+          <Text>exceeds</Text>
+        </ContinuedParagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305835" lims:id="305835">
+          <Label>(v)</Label>
+          <Text>the amount, if any, by which</Text>
+          <Clause lims:inforce-start-date="2017-12-14" lims:fid="305836" lims:id="305836">
+            <Label>(A)</Label>
+            <Text>the total of all amounts deducted under subsection 147.3(13.1) in computing the taxpayer’s income for the year or a preceding taxation year</Text>
+          </Clause>
+          <ContinuedSubparagraph lims:inforce-start-date="2017-12-14" lims:fid="305837" lims:id="305837">
+            <Text>exceeds</Text>
+          </ContinuedSubparagraph>
+          <Clause lims:inforce-start-date="2017-12-14" lims:fid="305838" lims:id="305838">
+            <Label>(B)</Label>
+            <Text>the total of all amounts, in respect of transfers occurring before 1991 from registered pension plans, deemed by paragraph 147.3(10)(b) or 147.3(10)(c) to be a premium paid by the taxpayer to a registered retirement savings plan, and</Text>
+          </Clause>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305839" lims:id="305839">
+        <Label>(b)</Label>
+        <Text>the amount, if any, by which the taxpayer’s RRSP deduction limit for the year exceeds the total of all contributions made by an employer in the year to a pooled registered pension plan in respect of the taxpayer.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305840" lims:id="305840">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305841" lims:id="305841">Amount of spousal RRSP premiums deductible</MarginalNote>
+      <Label>(5.1)</Label>
+      <Text>There may be deducted in computing a taxpayer’s income for a taxation year such amount as the taxpayer claims not exceeding the lesser of</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305842" lims:id="305842">
+        <Label>(a)</Label>
+        <Text>the total of all amounts each of which is a premium paid by the taxpayer after 1990 and on or before the day that is 60 days after the end of the year under a registered retirement savings plan under which the taxpayer’s spouse or common-law partner (or, where the taxpayer died in the year or within 60 days after the end of the year, an individual who was the taxpayer’s spouse or common-law partner immediately before the death) was the annuitant at the time the premium was paid, other than the portion, if any, of the premium</Text>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305843" lims:id="305843">
+          <Label>(i)</Label>
+          <Text>that was deducted in computing the taxpayer’s income for a preceding taxation year,</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305844" lims:id="305844">
+          <Label>(ii)</Label>
+          <Text>that was designated for any taxation year for the purposes of paragraph 60(j.2),</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305845" lims:id="305845">
+          <Label>(iii)</Label>
+          <Text>in respect of which the taxpayer or the taxpayer’s spouse or common-law partner has received a payment that has been deducted under subsection 146(8.2) in computing the taxpayer’s income for a preceding taxation year, or</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305846" lims:id="305846">
+          <Label>(iv)</Label>
+          <Text>that would be considered to be withdrawn by the taxpayer’s spouse or common-law partner as an eligible amount (as defined in subsection 146.01(1) or 146.02(1)) less than 90 days after it was paid, if earnings in respect of a registered retirement savings plan were considered to be withdrawn before premiums paid under that plan and premiums were considered to be withdrawn in the order in which they were paid, and</Text>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305847" lims:id="305847">
+        <Label>(b)</Label>
+        <Text>the amount, if any, by which the taxpayer’s RRSP deduction limit for the year exceeds the total of all amounts each of which is</Text>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305848" lims:id="305848">
+          <Label>(i)</Label>
+          <Text>the amount deducted under subsection (5) in computing the taxpayer’s income for the year, or</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305849" lims:id="305849">
+          <Label>(ii)</Label>
+          <Text>a contribution made by an employer in the year to a pooled registered pension plan in respect of the taxpayer.</Text>
+        </Subparagraph>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305850" lims:id="305850">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305851" lims:id="305851">RRSP premium</MarginalNote>
+      <Label>(5.2)</Label>
+      <Text>If a taxpayer’s entitlement to benefits under a defined benefit provision of a registered pension plan is transferred in accordance with subsection 147.3(4) after February 2009 and before 2011, there may be deducted in computing the taxpayer’s income for a taxation year that ends on or after the day on which the transfer was made, the amount claimed by the taxpayer in respect of premiums paid by the taxpayer in the year to a registered retirement savings plan under which the taxpayer is the annuitant, not exceeding the amount, if any, determined by the formula</Text>
+      <FormulaGroup lims:inforce-start-date="2017-12-14" lims:fid="305852" lims:id="305852">
+        <Formula lims:inforce-start-date="2017-12-14" lims:fid="305853" lims:id="305853">
+          <FormulaText>A – B – C</FormulaText>
+        </Formula>
+        <FormulaConnector>where</FormulaConnector>
+        <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305854" lims:id="305854">
+          <FormulaTerm>A</FormulaTerm>
+          <Text>is the amount, if any, that is the lesser of</Text>
+          <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305855" lims:id="305855">
+            <Label>(a)</Label>
+            <Text>the prescribed amount that would have been determined for the purpose of paragraph 147.3(4)(c) if subsection 8517(3.01) of the Regulations had applied in respect of the transfer, and</Text>
+          </FormulaParagraph>
+          <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305856" lims:id="305856">
+            <Label>(b)</Label>
+            <Text>the amount of the taxpayer’s entitlement to benefits under the provision commuted in connection with the transfer;</Text>
+          </FormulaParagraph>
+        </FormulaDefinition>
+        <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305857" lims:id="305857">
+          <FormulaTerm>B</FormulaTerm>
+          <Text>is the prescribed amount for the purpose of paragraph 147.3(4)(c) that applied in respect of the transfer; and</Text>
+        </FormulaDefinition>
+      </FormulaGroup>
+      <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305858" lims:id="305858">
+        <FormulaTerm>C</FormulaTerm>
+        <Text>is the total of all amounts deducted by the taxpayer under this subsection for a preceding taxation year.</Text>
+      </FormulaDefinition>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305859" lims:id="305859">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305860" lims:id="305860">Transitional rule</MarginalNote>
+      <Label>(5.201)</Label>
+      <Text>For the purpose of subsection (5.2), a premium paid by a taxpayer before 2013 is deemed to have been paid in the taxation year in which the transfer referred to in that subsection was made and not in the year in which it was actually paid, if the taxpayer so elects in prescribed form.</Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305861" lims:id="305861">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305862" lims:id="305862">Anti-avoidance</MarginalNote>
+      <Label>(5.21)</Label>
+      <Text>Notwithstanding any other provision of this section, where</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305863" lims:id="305863">
+        <Label>(a)</Label>
+        <Text>a registered pension plan is amended or administered in such a manner as to terminate, suspend or delay</Text>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305864" lims:id="305864">
+          <Label>(i)</Label>
+          <Text>the membership of an individual in the plan for the individual’s 1990 taxation year,</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305865" lims:id="305865">
+          <Label>(ii)</Label>
+          <Text>contributions under the plan by or for the benefit of the individual in respect of the year, or</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305866" lims:id="305866">
+          <Label>(iii)</Label>
+          <Text>the accrual of retirement benefits under the plan for the individual in respect of the year, or</Text>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305867" lims:id="305867">
+        <Label>(b)</Label>
+        <Text>a deferred profit sharing plan is amended or administered in such a manner as to terminate, suspend or delay contributions under the plan for the year in respect of an individual,</Text>
+      </Paragraph>
+      <ContinuedSectionSubsection lims:inforce-start-date="2017-12-14" lims:fid="305868" lims:id="305868">
+        <Text>and one of the main reasons for the termination, suspension or delay may reasonably be considered to be to reduce the pension adjustment of the individual for the year in respect of an employer, the only amount that may be deducted in computing the income for the year of the individual, in respect of premiums paid to registered retirement savings plans, is the amount that would have been deductible had that termination, suspension or delay not occurred.</Text>
+      </ContinuedSectionSubsection>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305869" lims:id="305869">
+      <Label>(6)</Label>
+      <Text>
+        <Repealed>[Repealed, 2011, c. 24, s. 45]</Repealed>
+      </Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305870" lims:id="305870">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305871" lims:id="305871">Recontribution of certain withdrawals</MarginalNote>
+      <Label>(6.1)</Label>
+      <Text>There may be deducted in computing a taxpayer’s income for a particular taxation year the total of all amounts each of which is such portion of a prescribed premium for the particular year as was not designated for any taxation year for the purposes of paragraph 60(j), 60(j.1) or 60(l).</Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305872" lims:id="305872">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305873" lims:id="305873">Recovery of property used as security</MarginalNote>
+      <Label>(7)</Label>
+      <Text>Where in a taxation year a loan, for which a trust governed by a registered retirement savings plan has used or permitted to be used trust property as security, ceases to be extant, and the fair market value of the property so used was included by virtue of subsection 146(10) in computing the income of the taxpayer who is the annuitant under the plan, there may be deducted, in computing the income of the taxpayer for the taxation year, an amount equal to the amount, if any, remaining when</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305874" lims:id="305874">
+        <Label>(a)</Label>
+        <Text>the net loss (exclusive of payments by the trust as or on account of interest) sustained by the trust in consequence of its using the property, or permitting it to be used, as security for the loan and not as a result of a change in the fair market value of the property</Text>
+      </Paragraph>
+      <ContinuedSectionSubsection lims:inforce-start-date="2017-12-14" lims:fid="305875" lims:id="305875">
+        <Text>is deducted from</Text>
+      </ContinuedSectionSubsection>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305876" lims:id="305876">
+        <Label>(b)</Label>
+        <Text>the amount so included in computing the income of the taxpayer in consequence of the trust’s using the property, or permitting it to be used, as security for the loan.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305877" lims:id="305877">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305878" lims:id="305878">Benefits taxable</MarginalNote>
+      <Label>(8)</Label>
+      <Text>There shall be included in computing a taxpayer’s income for a taxation year the total of all amounts received by the taxpayer in the year as benefits out of or under registered retirement savings plans, other than excluded withdrawals (as defined in subsection 146.01(1) or 146.02(1)) of the taxpayer and amounts that are included under paragraph (12)(b) in computing the taxpayer’s income.</Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305879" lims:id="305879">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305880" lims:id="305880">Subsequent re-calculation</MarginalNote>
+      <Label>(8.01)</Label>
+      <Text>If a designated withdrawal (as defined in subsection 146.01(1)) or an amount referred to in paragraph (a) of the definition <DefinedTermEn>eligible amount</DefinedTermEn> in subsection 146.02(1) is received by a taxpayer in a taxation year and, at any time after that year, it is determined that the amount is not an excluded withdrawal (as defined in subsection 146.01(1) or 146.02(1)), notwithstanding subsections 152(4) to (5), such assessments of tax, interest and penalties shall be made as are necessary to give effect to the determination.</Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2024-06-20" lims:enacted-date="2024-06-20" lims:fid="305881" lims:id="1482366">
+      <MarginalNote lims:inforce-start-date="2024-06-20" lims:enacted-date="2024-06-20" lims:fid="1482367" lims:id="1482367">Deemed receipt of refund of premiums</MarginalNote>
+      <Label>(8.1)</Label>
+      <Text>An individual and the legal representative of a deceased annuitant of a registered retirement savings plan may jointly designate in prescribed form filed with the Minister that all or a portion of a payment made out of or under the plan to the legal representative is deemed to have been received by the individual at the time it was so paid as a benefit that is a refund of premiums, and not to have been paid to the legal representative, if</Text>
+      <Paragraph lims:inforce-start-date="2024-06-20" lims:enacted-date="2024-06-20" lims:fid="1482368" lims:id="1482368">
+        <Label>(a)</Label>
+        <Text>a payment not less than the designated amount is made from the estate of the deceased annuitant to the individual who is entitled to receive the payment</Text>
+        <Subparagraph lims:inforce-start-date="2024-06-20" lims:enacted-date="2024-06-20" lims:fid="1482369" lims:id="1482369">
+          <Label>(i)</Label>
+          <Text>as a <DefinitionRef>beneficiary</DefinitionRef> (as defined in subsection 108(1)) under the estate, or</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2024-06-20" lims:enacted-date="2024-06-20" lims:fid="1482370" lims:id="1482370">
+          <Label>(ii)</Label>
+          <Text>under a decree, order or judgment of a competent tribunal or under a written agreement, relating to the rights or interests of a spouse or common-law partner in respect of property as a result of marriage or common-law partnership; and</Text>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2024-06-20" lims:enacted-date="2024-06-20" lims:fid="1482371" lims:id="1482371">
+        <Label>(b)</Label>
+        <Text>the designated amount would have been a refund of premiums if it had been paid to the individual directly from the registered retirement savings plan.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305883" lims:id="305883">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305884" lims:id="305884">Amount deductible</MarginalNote>
+      <Label>(8.2)</Label>
+      <Text>Where</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305885" lims:id="305885">
+        <Label>(a)</Label>
+        <Text>all or any portion of the premiums paid in a taxation year by a taxpayer to one or more registered retirement savings plans under which the taxpayer or the taxpayer’s spouse or common-law partner was the annuitant was not deducted in computing the taxpayer’s income for any taxation year,</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305886" lims:id="305886">
+        <Label>(b)</Label>
+        <Text>the taxpayer or the taxpayer’s spouse or common-law partner can reasonably be regarded as having received a payment from a registered retirement savings plan or a registered retirement income fund in respect of such portion of the undeducted premiums as</Text>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305887" lims:id="305887">
+          <Label>(i)</Label>
+          <Text>was not paid by way of a transfer of an amount from a registered pension plan to a registered retirement savings plan,</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305888" lims:id="305888">
+          <Label>(ii)</Label>
+          <Text>was not paid by way of a transfer of an amount from a deferred profit sharing plan to a registered retirement savings plan in accordance with subsection 147(19), and</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305889" lims:id="305889">
+          <Label>(iii)</Label>
+          <Text>was not paid by way of a transfer of an amount to a registered retirement savings plan from</Text>
+          <Clause lims:inforce-start-date="2017-12-14" lims:fid="305890" lims:id="305890">
+            <Label>(A)</Label>
+            <Text>a pooled registered pension plan in circumstances to which subsection 147.5(21) applied, or</Text>
+          </Clause>
+          <Clause lims:inforce-start-date="2017-12-14" lims:fid="305891" lims:id="305891">
+            <Label>(B)</Label>
+            <Text>a specified pension plan in circumstances to which subsection (21) applied,</Text>
+          </Clause>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305892" lims:id="305892">
+        <Label>(c)</Label>
+        <Text>the payment is received by the taxpayer or the taxpayer’s spouse or common-law partner in a particular taxation year that is</Text>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305893" lims:id="305893">
+          <Label>(i)</Label>
+          <Text>the year in which the premiums were paid by the taxpayer,</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305894" lims:id="305894">
+          <Label>(ii)</Label>
+          <Text>the year in which a notice of assessment for the taxation year referred to in subparagraph 146(8.2)(c)(i) was sent to the taxpayer, or</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305895" lims:id="305895">
+          <Label>(iii)</Label>
+          <Text>the year immediately following the year referred to in subparagraph 146(8.2)(c)(i) or 146(8.2)(c)(ii), and</Text>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305896" lims:id="305896">
+        <Label>(d)</Label>
+        <Text>the payment is included in computing the taxpayer’s income for the particular year,</Text>
+      </Paragraph>
+      <ContinuedSectionSubsection lims:inforce-start-date="2017-12-14" lims:fid="305897" lims:id="305897">
+        <Text>the payment (except to the extent that it is a prescribed withdrawal) may be deducted in computing the taxpayer’s income for the particular year unless it is reasonable to consider that</Text>
+      </ContinuedSectionSubsection>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305898" lims:id="305898">
+        <Label>(e)</Label>
+        <Text>the taxpayer did not reasonably expect that the full amount of the premiums would be deductible in the taxation year in which the premiums were paid or in the immediately preceding taxation year, and</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305899" lims:id="305899">
+        <Label>(f)</Label>
+        <Text>the taxpayer paid all or any portion of the premiums with the intent of receiving a payment that, but for this paragraph and paragraph 146(8.2)(e), would be deductible under this subsection.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305900" lims:id="305900">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305901" lims:id="305901">Premium deemed not paid</MarginalNote>
+      <Label>(8.21)</Label>
+      <Text>Where a taxpayer or the taxpayer’s spouse or common-law partner has, at any time in a taxation year, received a payment from a registered retirement savings plan or a registered retirement income fund in respect of all or any portion of a premium paid by the taxpayer to a registered retirement savings plan and the payment has been deducted under subsection 146(8.2) in computing the taxpayer’s income for the year, the premium or portion thereof, as the case may be, shall,</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305902" lims:id="305902">
+        <Label>(a)</Label>
+        <Text>for the purposes of determining, after that time, the amount that may be deducted under subsection 146(5) or 146(5.1) in computing the taxpayer’s income for the year or a preceding taxation year, and</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305903" lims:id="305903">
+        <Label>(b)</Label>
+        <Text>for the purposes of subsections 146(8.3) and 146.3(5.1) after that time, in the case of a payment received by the taxpayer,</Text>
+      </Paragraph>
+      <ContinuedSectionSubsection lims:inforce-start-date="2017-12-14" lims:fid="305904" lims:id="305904">
+        <Text>be deemed not to have been a premium paid by the taxpayer to a registered retirement savings plan.</Text>
+      </ContinuedSectionSubsection>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305905" lims:id="305905">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305906" lims:id="305906">Spousal or common-law partner payments</MarginalNote>
+      <Label>(8.3)</Label>
+      <Text>Where at any time in a taxation year a particular amount in respect of a registered retirement savings plan that is a spousal or common-law partner plan in relation to a taxpayer is required by reason of subsection (8) or paragraph (12)(b) to be included in computing the income of the taxpayer’s spouse or common-law partner before the plan matures or as a payment in full or partial commutation of a retirement income under the plan and the taxpayer is not living separate and apart from the taxpayer’s spouse or common-law partner at that time by reason of the breakdown of their marriage or common-law partnership, there shall be included at that time in computing the taxpayer’s income for the year an amount equal to the lesser of</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305907" lims:id="305907">
+        <Label>(a)</Label>
+        <Text>the total of all amounts each of which is a premium paid by the taxpayer in the year or in one of the two immediately preceding taxation years to a registered retirement savings plan under which the taxpayer’s spouse or common-law partner was the annuitant at the time the premium was paid, and</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305908" lims:id="305908">
+        <Label>(b)</Label>
+        <Text>the particular amount.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305909" lims:id="305909">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305910" lims:id="305910">Ordering</MarginalNote>
+      <Label>(8.5)</Label>
+      <Text>Where a taxpayer has paid more than one premium described in subsection 146(8.3), such a premium or part thereof paid by the taxpayer at any time shall be deemed to have been included in computing the taxpayer’s income by virtue of that subsection before premiums or parts thereof paid by the taxpayer after that time.</Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305911" lims:id="305911">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305912" lims:id="305912">Spouse’s income</MarginalNote>
+      <Label>(8.6)</Label>
+      <Text>Where, in respect of an amount required at any time in a taxation year to be included in computing the income of a taxpayer’s spouse or common-law partner, all or part of a premium has by reason of subsection 146(8.3) been included in computing the taxpayer’s income for the year, the following rules apply:</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305913" lims:id="305913">
+        <Label>(a)</Label>
+        <Text>the premium or part thereof, as the case may be, shall, for the purposes of subsections 146(8.3) and 146.3(5.1) after that time, be deemed not to have been a premium paid to a registered retirement savings plan under which the taxpayer’s spouse or common-law partner was the annuitant; and</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305914" lims:id="305914">
+        <Label>(b)</Label>
+        <Text>an amount equal to the premium or part thereof, as the case may be, may be deducted in computing the income of the spouse or common-law partner for the year.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305915" lims:id="305915">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305916" lims:id="305916">Where s. (8.3) does not apply</MarginalNote>
+      <Label>(8.7)</Label>
+      <Text>Subsection 146(8.3) does not apply</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305917" lims:id="305917">
+        <Label>(a)</Label>
+        <Text>in respect of a taxpayer at any time during the year in which the taxpayer died;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305918" lims:id="305918">
+        <Label>(b)</Label>
+        <Text>in respect of a taxpayer where either the taxpayer or the taxpayer’s spouse or common-law partner is a non-resident at the particular time referred to in that subsection;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305919" lims:id="305919">
+        <Label>(c)</Label>
+        <Text>in respect of amounts paid out of or under a plan referred to in subsection 146(12) as an “amended plan” to which paragraph 146(12)(a) applied before May 26, 1976;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305920" lims:id="305920">
+        <Label>(d)</Label>
+        <Text>to any payment that is received in full or partial commutation of a registered retirement income fund or a registered retirement savings plan and in respect of which a deduction was made under paragraph 60(l) if, where the deduction was in respect of the acquisition of an annuity, the terms of the annuity provide that it cannot be commuted, and it is not commuted, in whole or in part within 3 years after the acquisition; or</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305921" lims:id="305921">
+        <Label>(e)</Label>
+        <Text>in respect of an amount that is deemed by subsection 146(8.8) to have been received by an annuitant under a registered retirement savings plan immediately before the annuitant’s death.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305922" lims:id="305922">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305923" lims:id="305923">Effect of death where person other than spouse becomes entitled</MarginalNote>
+      <Label>(8.8)</Label>
+      <Text>Where the annuitant under a registered retirement savings plan (other than a plan that had matured before June 30, 1978) dies after June 29, 1978, the annuitant shall be deemed to have received, immediately before the annuitant’s death, an amount as a benefit out of or under a registered retirement savings plan equal to the amount, if any, by which</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305924" lims:id="305924">
+        <Label>(a)</Label>
+        <Text>the fair market value of all the property of the plan at the time of death</Text>
+      </Paragraph>
+      <ContinuedSectionSubsection lims:inforce-start-date="2017-12-14" lims:fid="305925" lims:id="305925">
+        <Text>exceeds</Text>
+      </ContinuedSectionSubsection>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305926" lims:id="305926">
+        <Label>(b)</Label>
+        <Text>where the annuitant died after the maturity of the plan, the fair market value at the time of the death of the portion of the property described in paragraph 146(8.8)(a) that, as a consequence of the death, becomes receivable by a person who was the annuitant’s spouse or common-law partner immediately before the death, or would become so receivable should that person survive throughout all guaranteed terms contained in the plan.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305927" lims:id="305927">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305928" lims:id="305928">Idem</MarginalNote>
+      <Label>(8.9)</Label>
+      <Text>There may be deducted from the amount deemed by subsection 146(8.8) to have been received by an annuitant as a benefit out of or under a registered retirement savings plan an amount not exceeding the amount determined by the formula</Text>
+      <FormulaGroup lims:inforce-start-date="2017-12-14" lims:fid="305929" lims:id="305929">
+        <Formula lims:inforce-start-date="2017-12-14" lims:fid="305930" lims:id="305930">
+          <FormulaText>A × [1 - ((B + C - D) / (B + C))]</FormulaText>
+        </Formula>
+        <FormulaConnector>where</FormulaConnector>
+        <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305931" lims:id="305931">
+          <FormulaTerm>A</FormulaTerm>
+          <Text>is the total of</Text>
+          <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305932" lims:id="305932">
+            <Label>(a)</Label>
+            <Text>all refunds of premiums in respect of the plan,</Text>
+          </FormulaParagraph>
+          <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305933" lims:id="305933">
+            <Label>(b)</Label>
+            <Text>all tax-paid amounts in respect of the plan paid to individuals who, otherwise than because of subsection 146(8.1), received refunds of premiums in respect of the plan, and</Text>
+          </FormulaParagraph>
+          <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305934" lims:id="305934">
+            <Label>(c)</Label>
+            <Text>all amounts each of which is a tax-paid amount in respect of the plan paid to the legal representative of the annuitant under the plan, to the extent that the legal representative would have been entitled to designate that tax-paid amount under subsection 146(8.1) if tax-paid amounts were not excluded in determining refunds of premiums;</Text>
+          </FormulaParagraph>
+        </FormulaDefinition>
+        <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305935" lims:id="305935">
+          <FormulaTerm>B</FormulaTerm>
+          <Text>is the fair market value of the property of the plan at the particular time that is the later of</Text>
+          <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305936" lims:id="305936">
+            <Label>(a)</Label>
+            <Text>the end of the first calendar year that begins after the death of the annuitant, and</Text>
+          </FormulaParagraph>
+          <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305937" lims:id="305937">
+            <Label>(b)</Label>
+            <Text>the time immediately after the last time that any refund of premiums in respect of the plan is paid out of or under the plan;</Text>
+          </FormulaParagraph>
+        </FormulaDefinition>
+        <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305938" lims:id="305938">
+          <FormulaTerm>C</FormulaTerm>
+          <Text>is the total of all amounts paid out of or under the plan after the death of the annuitant and before the particular time; and</Text>
+        </FormulaDefinition>
+        <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305939" lims:id="305939">
+          <FormulaTerm>D</FormulaTerm>
+          <Text>is the lesser of</Text>
+          <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305940" lims:id="305940">
+            <Label>(a)</Label>
+            <Text>the fair market value of the property of the plan at the time of the annuitant’s death, and</Text>
+          </FormulaParagraph>
+          <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305941" lims:id="305941">
+            <Label>(b)</Label>
+            <Text>the sum of the values of B and C in respect of the plan.</Text>
+          </FormulaParagraph>
+        </FormulaDefinition>
+      </FormulaGroup>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305942" lims:id="305942">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305943" lims:id="305943">Amounts deemed receivable by spouse or common-law partner</MarginalNote>
+      <Label>(8.91)</Label>
+      <Text>Where, as a consequence of the death of an annuitant after the maturity of the annuitant’s registered retirement savings plan, the annuitant’s legal representative has become entitled to receive amounts out of or under the plan for the benefit of the spouse or common-law partner of the deceased and the legal representative and the spouse or common-law partner file with the Minister a joint election in prescribed form,</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305944" lims:id="305944">
+        <Label>(a)</Label>
+        <Text>the spouse or common-law partner shall be deemed to have become the annuitant under the plan as a consequence of the annuitant’s death; and</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305945" lims:id="305945">
+        <Label>(b)</Label>
+        <Text>those amounts shall be deemed to be receivable by the spouse or common-law partner and, when paid, to be received by the spouse or common-law partner as a benefit under the plan, and not to be received by any other person.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305946" lims:id="305946">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305947" lims:id="305947">Deduction for post-death reduction in value</MarginalNote>
+      <Label>(8.92)</Label>
+      <Text>If the annuitant under a registered retirement savings plan dies before the maturity of the plan, there may be deducted in computing the annuitant’s income for the taxation year in which the annuitant dies an amount not exceeding the amount determined, after all amounts payable out of or under the plan have been paid, by the formula</Text>
+      <FormulaGroup lims:inforce-start-date="2017-12-14" lims:fid="305948" lims:id="305948">
+        <Formula lims:inforce-start-date="2017-12-14" lims:fid="305949" lims:id="305949">
+          <FormulaText>A – B</FormulaText>
+        </Formula>
+        <FormulaConnector>where</FormulaConnector>
+        <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305950" lims:id="305950">
+          <FormulaTerm>A</FormulaTerm>
+          <Text>is the total of all amounts each of which is</Text>
+          <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305951" lims:id="305951">
+            <Label>(a)</Label>
+            <Text>the amount deemed by subsection (8.8) to have been received by the annuitant as a benefit out of or under the plan,</Text>
+          </FormulaParagraph>
+          <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305952" lims:id="305952">
+            <Label>(b)</Label>
+            <Text>an amount (other than an amount described in paragraph (c)) received, after the death of the annuitant, by a taxpayer as a benefit out of or under the plan and included, because of subsection (8), in computing the taxpayer’s income, or</Text>
+          </FormulaParagraph>
+          <FormulaParagraph lims:inforce-start-date="2017-12-14" lims:fid="305953" lims:id="305953">
+            <Label>(c)</Label>
+            <Text>a tax-paid amount in respect of the plan; and</Text>
+          </FormulaParagraph>
+        </FormulaDefinition>
+        <FormulaDefinition lims:inforce-start-date="2017-12-14" lims:fid="305954" lims:id="305954">
+          <FormulaTerm>B</FormulaTerm>
+          <Text>is the total of all amounts paid out of or under the plan after the death of the annuitant.</Text>
+        </FormulaDefinition>
+      </FormulaGroup>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305955" lims:id="305955">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305956" lims:id="305956">Subsection (8.92) not applicable</MarginalNote>
+      <Label>(8.93)</Label>
+      <Text>Except where the Minister has waived in writing the application of this subsection with respect to all or any portion of the amount determined in subsection (8.92) in respect of a registered retirement savings plan, that subsection does not apply if</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305957" lims:id="305957">
+        <Label>(a)</Label>
+        <Text>at any time after the death of the annuitant, a trust governed by the plan held a non-qualified investment; or</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305958" lims:id="305958">
+        <Label>(b)</Label>
+        <Text>the last payment out of or under the plan was made after the end of the year following the year in which the annuitant died.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305959" lims:id="305959">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305960" lims:id="305960">Where disposition of property by trust</MarginalNote>
+      <Label>(9)</Label>
+      <Text>Where in a taxation year a trust governed by a registered retirement savings plan</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305961" lims:id="305961">
+        <Label>(a)</Label>
+        <Text>disposes of property for a consideration less than the fair market value of the property at the time of the disposition, or for no consideration, or</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305962" lims:id="305962">
+        <Label>(b)</Label>
+        <Text>acquires property for a consideration greater than the fair market value of the property at the time of the acquisition,</Text>
+      </Paragraph>
+      <ContinuedSectionSubsection lims:inforce-start-date="2017-12-14" lims:fid="305963" lims:id="305963">
+        <Text>the difference between the fair market value and the consideration, if any, shall be included in computing the income for the taxation year of the annuitant under the plan.</Text>
+      </ContinuedSectionSubsection>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305964" lims:id="305964">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305965" lims:id="305965">Property used as security for loan</MarginalNote>
+      <Label>(10)</Label>
+      <Text>If at any time in a taxation year a trust governed by a registered retirement savings plan uses or permits to be used any property of the trust as security for a loan, the fair market value of the property at the time it commenced to be so used shall be included in computing the income for the year of the taxpayer who is the annuitant under the plan at that time.</Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305966" lims:id="305966">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305967" lims:id="305967">Where tax payable</MarginalNote>
+      <Label>(10.1)</Label>
+      <Text>Where in a taxation year a trust governed by a registered retirement savings plan holds a property that is a non-qualified investment,</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305968" lims:id="305968">
+        <Label>(a)</Label>
+        <Text>tax is payable under this Part by the trust on the amount that its taxable income for the year would be if it had no incomes or losses from sources other than non-qualified investments and no capital gains or losses other than from dispositions of non-qualified investments; and</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305969" lims:id="305969">
+        <Label>(b)</Label>
+        <Text>for the purposes of paragraph 146(10.1)(a),</Text>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305970" lims:id="305970">
+          <Label>(i)</Label>
+          <Text><DefinedTermEn>income</DefinedTermEn> includes dividends described in section 83, and</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="305971" lims:id="305971">
+          <Label>(ii)</Label>
+          <Text>paragraphs 38(a) and (b) are to be read as if the fraction set out in each of those paragraphs were replaced by the word “all”.</Text>
+        </Subparagraph>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305972" lims:id="305972">
+      <Label>(11) and (11.1)</Label>
+      <Text>
+        <Repealed>[Repealed, 2011, c. 24, s. 45]</Repealed>
+      </Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305973" lims:id="305973">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305974" lims:id="305974">Change in plan after registration</MarginalNote>
+      <Label>(12)</Label>
+      <Text>Where, on any day after a retirement savings plan has been accepted by the Minister for registration for the purposes of this Act, the plan is revised or amended or a new plan is substituted for it, and the plan as revised or amended or the new plan, as the case may be (in this subsection referred to as the “amended plan”), does not comply with the requirements of this section for its acceptance by the Minister for registration for the purposes of this Act, subject to subsection 146(13.1), the following rules apply:</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305975" lims:id="305975">
+        <Label>(a)</Label>
+        <Text>the amended plan shall be deemed, for the purposes of this Act, not to be a registered retirement savings plan; and</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305976" lims:id="305976">
+        <Label>(b)</Label>
+        <Text>the taxpayer who was the annuitant under the plan before it became an amended plan shall, in computing the taxpayer’s income for the taxation year that includes that day, include as income received at that time an amount equal to the fair market value of all the property of the plan immediately before that time.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305977" lims:id="305977">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305978" lims:id="305978">Idem</MarginalNote>
+      <Label>(13)</Label>
+      <Text>For the purposes of subsection 146(12), an arrangement under which a right or obligation under a retirement savings plan is released or extinguished either wholly or in part and either in exchange or substitution for any right or obligation, or otherwise (other than an arrangement the sole object and legal effect of which is to revise or amend the plan) or under which payment of any amount by way of loan or otherwise is made on the security of a right under a retirement savings plan, shall be deemed to be a new plan substituted for that retirement savings plan.</Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305979" lims:id="305979">
+      <Label>(13.1)</Label>
+      <Text>
+        <Repealed>[Repealed, 2011, c. 24, s. 45]</Repealed>
+      </Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305980" lims:id="305980">
+      <Label>(13.2) and (13.3)</Label>
+      <Text>
+        <Repealed>[Repealed, 2007, c. 29, s. 17]</Repealed>
+      </Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305981" lims:id="305981">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305982" lims:id="305982">Premiums paid in taxation year</MarginalNote>
+      <Label>(14)</Label>
+      <Text>Where any amount has been paid in a taxation year as a premium under a retirement savings plan that was, at the end of that taxation year, a registered retirement savings plan, the amount so paid shall be deemed, for the purposes of this Act, to have been paid in that year as a premium under a registered retirement savings plan.</Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305983" lims:id="305983">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305984" lims:id="305984">Plan not registered at end of year entered into</MarginalNote>
+      <Label>(15)</Label>
+      <Text>Notwithstanding anything in this section, where an amount is received in a taxation year as a benefit under a registered retirement savings plan that was not, at the end of the year in which the plan was entered into, a registered retirement savings plan, such part, if any, of the amount so received as may be prescribed shall be deemed, for the purposes of this Act, to have been received in the taxation year otherwise than as a benefit or other payment under a registered retirement savings plan.</Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305985" lims:id="305985">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305986" lims:id="305986">Transfer of funds</MarginalNote>
+      <Label>(16)</Label>
+      <Text>Notwithstanding any other provision in this section, a registered retirement savings plan may at any time be revised or amended to provide for the payment or transfer before the maturity of the plan, on behalf of the annuitant under the plan (in this subsection referred to as the “transferor”), of any property thereunder by the issuer thereof</Text>
+      <Paragraph lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="305987" lims:id="1310532">
+        <Label>(a)</Label>
+        <Text>to a registered pension plan for the benefit of the transferor or to a registered retirement savings plan or registered retirement income fund under which the transferor is the annuitant,</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2023-04-01" lims:enacted-date="2022-12-15" lims:fid="1310531" lims:id="1393714">
+        <Label>(a.1)</Label>
+        <Text>to a licensed annuities provider to acquire an advanced life deferred annuity for the benefit of the transferor,</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2023-04-01" lims:enacted-date="2022-12-15" lims:fid="1393713" lims:id="1393713">
+        <Label>(a.2)</Label>
+        <Text>to a FHSA for the benefit of the transferor, if subsection (8.3) would not apply to an amount in respect of the property in the case that the property was instead received by the transferor as a benefit out of or under the registered retirement savings plan, or</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305988" lims:id="305988">
+        <Label>(b)</Label>
+        <Text>to a registered retirement savings plan or registered retirement income fund under which the spouse or common-law partner or former spouse or common-law partner of the transferor is the annuitant, where the transferor and the transferor’s spouse or common-law partner or former spouse or common-law partner are living separate and apart and the payment or transfer is made under a decree, order or judgment of a competent tribunal, or under a written separation agreement, relating to a division of property between the transferor and the transferor’s spouse or common-law partner or former spouse or common-law partner in settlement of rights arising out of, or on the breakdown of, their marriage or common-law partnership,</Text>
+      </Paragraph>
+      <ContinuedSectionSubsection lims:inforce-start-date="2017-12-14" lims:fid="305989" lims:id="305989">
+        <Text>and, where there has been such a payment or transfer of such property on behalf of the transferor before the maturity of the plan,</Text>
+      </ContinuedSectionSubsection>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305990" lims:id="305990">
+        <Label>(c)</Label>
+        <Text>the amount of the payment or transfer shall not, solely because of the payment or transfer, be included in computing the income of the transferor or the transferor’s spouse or common-law partner or former spouse or common-law partner,</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2023-04-01" lims:enacted-date="2022-12-15" lims:fid="305991" lims:id="1393715">
+        <Label>(d)</Label>
+        <Text>no deduction may be made under subsection (5), (5.1) or (8.2) or section 8, 60 or 146.6 in respect of the payment or transfer in computing the income of any taxpayer, and</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305992" lims:id="305992">
+        <Label>(e)</Label>
+        <Text>where the payment or transfer was made to a registered retirement savings plan, for the purposes of subsection 146(8.2), the amount of the payment or transfer shall be deemed not to be a premium paid to that plan by the taxpayer.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305993" lims:id="305993">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="305994" lims:id="305994">Credited or added amount deemed not received</MarginalNote>
+      <Label>(20)</Label>
+      <Text>Where</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305995" lims:id="305995">
+        <Label>(a)</Label>
+        <Text>an amount is credited or added to a deposit with a depositary referred to in subparagraph (b)(iii) of the definition <DefinedTermEn>retirement savings plan</DefinedTermEn> in subsection 146(1) as interest or income in respect of the deposit,</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305996" lims:id="305996">
+        <Label>(b)</Label>
+        <Text>the deposit is a registered retirement savings plan at the time the amount is credited or added to the deposit, and</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="305997" lims:id="305997">
+        <Label>(c)</Label>
+        <Text>during the calendar year in which the amount is credited or added or during the preceding calendar year, the annuitant under the plan was alive,</Text>
+      </Paragraph>
+      <ContinuedSectionSubsection lims:inforce-start-date="2017-12-14" lims:fid="305998" lims:id="305998">
+        <Text>the amount shall be deemed not to be received by the annuitant or any other person solely because of the crediting or adding.</Text>
+      </ContinuedSectionSubsection>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="305999" lims:id="305999">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="306000" lims:id="306000">Specified pension plan</MarginalNote>
+      <Label>(21)</Label>
+      <Text>Where</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="306001" lims:id="306001">
+        <Label>(a)</Label>
+        <Text>an amount (other than an amount that is part of a series of periodic payments) is transferred directly from an individual’s account under a specified pension plan</Text>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="306002" lims:id="306002">
+          <Label>(i)</Label>
+          <Text>to a registered retirement savings plan or registered retirement income fund under which the individual, or a spouse or common-law partner or former spouse or common-law partner of the individual, is the annuitant,</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="306003" lims:id="306003">
+          <Label>(ii)</Label>
+          <Text>to acquire from a licensed annuities provider an annuity that would be described in subparagraph 60(l)(ii) if the individual, or a spouse or common-law partner or former spouse or common-law partner of the individual, were the taxpayer referred to in that subparagraph and if that subparagraph were read without reference to clause 60(l)(ii)(B), or</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="306004" lims:id="306004">
+          <Label>(iii)</Label>
+          <Text>to an account under the plan of a spouse or common-law partner or former spouse or common-law partner of the individual, and</Text>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="306005" lims:id="306005">
+        <Label>(b)</Label>
+        <Text>if the transfer is in respect of a spouse or common-law partner or former spouse or common-law partner of the individual,</Text>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="306006" lims:id="306006">
+          <Label>(i)</Label>
+          <Text>the individual and the spouse or common-law partner or former spouse or common-law partner are living separate and apart and the transfer is made under a decree, order or judgment of a competent tribunal, or under a written separation agreement, relating to a division of property in settlement of rights arising out of, or on the breakdown of, their marriage or common-law partnership, or</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2017-12-14" lims:fid="306007" lims:id="306007">
+          <Label>(ii)</Label>
+          <Text>the amount is transferred as a consequence of the individual’s death,</Text>
+        </Subparagraph>
+      </Paragraph>
+      <ContinuedSectionSubsection lims:inforce-start-date="2017-12-14" lims:fid="306008" lims:id="306008">
+        <Text>the following rules apply:</Text>
+      </ContinuedSectionSubsection>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="306009" lims:id="306009">
+        <Label>(c)</Label>
+        <Text>the amount shall not, solely because of the transfer, be included because of subparagraph 56(1)(a)(i) in computing the income of a taxpayer, and</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="306010" lims:id="306010">
+        <Label>(d)</Label>
+        <Text>no deduction may be made under any provision of this Act in respect of the transfer in computing the income of a taxpayer.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="306011" lims:id="306011">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="306012" lims:id="306012">Specified pension plan — contribution</MarginalNote>
+      <Label>(21.1)</Label>
+      <Text>For the purposes of this section, paragraphs 18(11)(b), 60(j), (j.1) and (l), 74.5(12)(a), 146.01(3)(a) and 146.02(3)(a) and Parts X.1 and X.5, and for the purposes of section 214.1 of the <XRefExternal reference-type="regulation" link="C.R.C.,_c._945">Income Tax Regulations</XRefExternal>, a contribution made by an individual to an account of the individual, or of the individual’s spouse or common-law partner, under a specified pension plan is deemed to be a premium paid by the individual to a registered retirement savings plan under which the individual, or the individual’s spouse or common-law partner, as the case may be, is the annuitant.</Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2024-06-20" lims:enacted-date="2024-06-20" lims:fid="306013" lims:id="1482364">
+      <MarginalNote lims:inforce-start-date="2024-06-20" lims:enacted-date="2024-06-20" lims:fid="1482365" lims:id="1482365">Specified pension plan — account</MarginalNote>
+      <Label>(21.2)</Label>
+      <Text>For the purposes of paragraph (8.2)(b), subsection (8.21), paragraphs (16)(a) and (b) and 18(1)(u), section 60.011, subparagraph (a)(i) of the definition <DefinitionRef>excluded right or interest</DefinitionRef> in subsection 128.1(10), paragraph (b) of the definition <DefinitionRef>excluded premium</DefinitionRef> in subsection 146.01(1), paragraph (c) of the definition <DefinitionRef>excluded premium</DefinitionRef> in subsection 146.02(1), subsections 146.3(14) and 147(19), section 147.3 and paragraphs 147.5(21)(c) and 212(1)(j.1) and (m) and for the purposes of any regulations made under subsection 147.1(18), an individual’s account under a specified pension plan is deemed to be a registered retirement savings plan under which the individual is the annuitant.</Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="306015" lims:id="306015">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="306016" lims:id="306016">Specified pension plan — payment</MarginalNote>
+      <Label>(21.3)</Label>
+      <Text>For the purposes of subsections (8.3) to (8.7), a payment received by an individual from a specified pension plan is deemed to be a payment received by the individual from a registered retirement savings plan.</Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2017-12-14" lims:fid="306017" lims:id="306017">
+      <MarginalNote lims:inforce-start-date="2017-12-14" lims:fid="306018" lims:id="306018">Deemed payment of RRSP premiums</MarginalNote>
+      <Label>(22)</Label>
+      <Text>If the Minister so directs,</Text>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="306019" lims:id="306019">
+        <Label>(a)</Label>
+        <Text>except for the purposes of subparagraphs (5)(a)(iv.1) and (5.1)(a)(iv), an amount paid by an individual in a taxation year (other than an amount paid in the first 60 days of the year) as a premium is deemed to have been paid at the beginning of the year and not at the time it was actually paid;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="306020" lims:id="306020">
+        <Label>(b)</Label>
+        <Text>all or part of the amount may be designated in writing by the individual for the purpose of paragraph 60(j), (j.1) or (l) or subsection 146.01(3) or 146.02(3); and</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2017-12-14" lims:fid="306021" lims:id="306021">
+        <Label>(c)</Label>
+        <Text>the designation is deemed to have been made in the individual’s return of income for the preceding taxation year or in a prescribed form filed with that return, as the case may be.</Text>
+      </Paragraph>
+    </Subsection>
+    <HistoricalNote>
+      <HistoricalNoteSubItem>[NOTE: Application provisions are not included in the consolidated text; see relevant amending Acts and regulations.] </HistoricalNoteSubItem>
+      <HistoricalNoteSubItem lims:inforce-start-date="2017-12-14" lims:fid="306023" lims:id="306023">R.S., 1985, c. 1 (5th Supp.), s. 146; 1994, c. 7, Sch. II, s. 117, Sch. VII, s. 13, Sch. VIII, s. 82, c. 21, ss. 69, 136; 1995, c. 3, s. 43; 1996, c. 21, s. 34; 1997, c. 25, s. 41; 1998, c. 19, ss. 37, 170; 1999, c. 22, s. 59; 2000, c. 12, ss. 135(F), 142, c. 19, s. 42; 2001, c. 17, ss. 139, 246(E); 2003, c. 15, s. 82; 2007, c. 29, s. 17; 2009, c. 2, s. 51; 2011, c. 24, s. 45; 2012, c. 31, s. 32; 2013, c. 34, ss. 137, 296; 2014, c. 39, s. 50; 2016, c. 12, s. 52; 2017, c. 33, s. 56</HistoricalNoteSubItem>
+      <HistoricalNoteSubItem lims:inforce-start-date="2020-01-01" lims:enacted-date="2019-06-21" lims:fid="1215183" lims:id="1215183" lims:enactId="1155167">2019, c. 29, s. 26</HistoricalNoteSubItem>
+      <HistoricalNoteSubItem lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310533" lims:id="1310533" lims:enactId="1306274">2021, c. 23, s. 31</HistoricalNoteSubItem>
+      <HistoricalNoteSubItem lims:inforce-start-date="2022-06-23" lims:enacted-date="2022-06-23" lims:fid="1367368" lims:id="1367368" lims:enactId="1356118">2022, c. 10, s. 15</HistoricalNoteSubItem>
+      <HistoricalNoteSubItem lims:inforce-start-date="2023-04-01" lims:enacted-date="2022-12-15" lims:fid="1393716" lims:id="1393716" lims:enactId="1383544">2022, c. 19, s. 29</HistoricalNoteSubItem>
+      <HistoricalNoteSubItem lims:inforce-start-date="2023-06-22" lims:enacted-date="2023-06-22" lims:fid="1416116" lims:id="1416116" lims:enactId="1408815">2023, c. 26, s. 37</HistoricalNoteSubItem>
+      <HistoricalNoteSubItem lims:inforce-start-date="2024-06-20" lims:enacted-date="2024-06-20" lims:fid="1482363" lims:id="1482363" lims:enactId="1466514">2024, c. 17, s. 48</HistoricalNoteSubItem>
+    </HistoricalNote>
+  </Section>
+</Statute>

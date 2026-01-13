@@ -1,0 +1,663 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Statute>
+  <Section xmlns:lims="http://justice.gc.ca/lims" lims:inforce-start-date="2018-06-21" lims:lastAmendedDate="2023-06-22" lims:fid="297783" lims:id="297783">
+    <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297784" lims:id="297784">Personal credits</MarginalNote>
+    <Label>118</Label>
+    <Subsection lims:inforce-start-date="2018-06-21" lims:fid="297785" lims:id="297785">
+      <Label>(1)</Label>
+      <Text>For the purpose of computing the tax payable under this Part by an individual for a taxation year, there may be deducted an amount determined by the formula</Text>
+      <FormulaGroup lims:inforce-start-date="2018-06-21" lims:fid="297786" lims:id="297786">
+        <Formula lims:inforce-start-date="2018-06-21" lims:fid="297787" lims:id="297787">
+          <FormulaText>A × B</FormulaText>
+        </Formula>
+        <FormulaConnector>where</FormulaConnector>
+        <FormulaDefinition lims:inforce-start-date="2018-06-21" lims:fid="297788" lims:id="297788">
+          <FormulaTerm>A</FormulaTerm>
+          <Text>is the appropriate percentage for the year, and</Text>
+        </FormulaDefinition>
+        <FormulaDefinition lims:inforce-start-date="2018-06-21" lims:fid="297789" lims:id="297789">
+          <FormulaTerm>B</FormulaTerm>
+          <Text>is the total of,</Text>
+        </FormulaDefinition>
+      </FormulaGroup>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297790" lims:id="297790">
+        <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297791" lims:id="297791">Married or common-law partnership status</MarginalNote>
+        <Label>(a)</Label>
+        <Text>in the case of an individual who at any time in the year is a married person or a person who is in a common-law partnership who supports the individual’s spouse or common-law partner and is not living separate and apart from the spouse or common-law partner by reason of a breakdown of their marriage or common-law partnership, an amount equal to the total of</Text>
+        <Subparagraph lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="297792" lims:id="1310000">
+          <Label>(i)</Label>
+          <Text>the basic personal amount of the individual for the year, and</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297793" lims:id="297793">
+          <Label>(ii)</Label>
+          <Text>the amount determined by the formula</Text>
+          <FormulaGroup lims:inforce-start-date="2018-06-21" lims:fid="297794" lims:id="297794">
+            <Formula lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="297795" lims:id="1310003">
+              <FormulaText>C + C.01 − C.1</FormulaText>
+            </Formula>
+            <FormulaConnector>where</FormulaConnector>
+            <FormulaDefinition lims:inforce-start-date="2018-06-21" lims:fid="297796" lims:id="297796">
+              <FormulaTerm>C </FormulaTerm>
+              <Text>is</Text>
+              <FormulaParagraph lims:inforce-start-date="2018-06-21" lims:fid="297797" lims:id="297797">
+                <Label>(A)</Label>
+                <Text>$2,150 if the spouse or common-law partner is dependent on the individual by reason of mental or physical infirmity, and</Text>
+              </FormulaParagraph>
+              <FormulaParagraph lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="297798" lims:id="1310005">
+                <Label>(B)</Label>
+                <Text>in any other case, nil,</Text>
+              </FormulaParagraph>
+            </FormulaDefinition>
+            <FormulaDefinition lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310004" lims:id="1310004">
+              <FormulaTerm>C.01</FormulaTerm>
+              <Text>is the basic personal amount of the individual for the year, and</Text>
+            </FormulaDefinition>
+            <FormulaDefinition lims:inforce-start-date="2018-06-21" lims:fid="297799" lims:id="297799">
+              <FormulaTerm>C.1</FormulaTerm>
+              <Text>is the income of the individual’s spouse or common-law partner for the year or, if the individual and the individual’s spouse or common-law partner are living separate and apart at the end of the year because of a breakdown of their marriage or common-law partnership, the spouse’s or common-law partner’s income for the year while married to, or in a common-law partnership with, the individual and not so separated,</Text>
+            </FormulaDefinition>
+          </FormulaGroup>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297800" lims:id="297800">
+        <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297801" lims:id="297801">Wholly dependent person</MarginalNote>
+        <Label>(b)</Label>
+        <Text>in the case of an individual who does not claim a deduction for the year because of paragraph 118(1)(a) and who, at any time in the year,</Text>
+        <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297802" lims:id="297802">
+          <Label>(i)</Label>
+          <Text>is</Text>
+          <Clause lims:inforce-start-date="2018-06-21" lims:fid="297803" lims:id="297803">
+            <Label>(A)</Label>
+            <Text>a person who is unmarried and who does not live in a common-law partnership, or</Text>
+          </Clause>
+          <Clause lims:inforce-start-date="2018-06-21" lims:fid="297804" lims:id="297804">
+            <Label>(B)</Label>
+            <Text>a person who is married or in a common-law partnership, who neither supported nor lived with their spouse or common-law partner and who is not supported by that spouse or common-law partner, and</Text>
+          </Clause>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297805" lims:id="297805">
+          <Label>(ii)</Label>
+          <Text>whether alone or jointly with one or more other persons, maintains a self-contained domestic establishment (in which the individual lives) and actually supports in that establishment a person who, at that time, is</Text>
+          <Clause lims:inforce-start-date="2018-06-21" lims:fid="297806" lims:id="297806">
+            <Label>(A)</Label>
+            <Text>except in the case of a child of the individual, resident in Canada,</Text>
+          </Clause>
+          <Clause lims:inforce-start-date="2018-06-21" lims:fid="297807" lims:id="297807">
+            <Label>(B)</Label>
+            <Text>wholly dependent for support on the individual, or the individual and the other person or persons, as the case may be,</Text>
+          </Clause>
+          <Clause lims:inforce-start-date="2018-06-21" lims:fid="297808" lims:id="297808">
+            <Label>(C)</Label>
+            <Text>related to the individual, and</Text>
+          </Clause>
+          <Clause lims:inforce-start-date="2018-06-21" lims:fid="297809" lims:id="297809">
+            <Label>(D)</Label>
+            <Text>except in the case of a parent or grandparent of the individual, either under 18 years of age or so dependent by reason of mental or physical infirmity,</Text>
+          </Clause>
+        </Subparagraph>
+        <ContinuedParagraph lims:inforce-start-date="2018-06-21" lims:fid="297810" lims:id="297810">
+          <Text>an amount equal to the total of</Text>
+        </ContinuedParagraph>
+        <Subparagraph lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="297811" lims:id="1310007">
+          <Label>(iii)</Label>
+          <Text>the basic personal amount of the individual for the year, and</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297812" lims:id="297812">
+          <Label>(iv)</Label>
+          <Text>the amount determined by the formula</Text>
+          <FormulaGroup lims:inforce-start-date="2018-06-21" lims:fid="297813" lims:id="297813">
+            <Formula lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="297814" lims:id="1310008">
+              <FormulaText>D + D.01 − D.1</FormulaText>
+            </Formula>
+            <FormulaConnector>where</FormulaConnector>
+            <FormulaDefinition lims:inforce-start-date="2018-06-21" lims:fid="297815" lims:id="297815">
+              <FormulaTerm>D </FormulaTerm>
+              <Text>is</Text>
+              <FormulaParagraph lims:inforce-start-date="2018-06-21" lims:fid="297816" lims:id="297816">
+                <Label>(A)</Label>
+                <Text>$2,150 if</Text>
+                <FormulaParagraph lims:inforce-start-date="2018-06-21" lims:fid="297817" lims:id="297817">
+                  <Label>(I)</Label>
+                  <Text>the dependent person is, at the end of the taxation year, 18 years of age or older and is, at any time in the year, dependent on the individual by reason of mental or physical infirmity, or</Text>
+                </FormulaParagraph>
+                <FormulaParagraph lims:inforce-start-date="2018-06-21" lims:fid="297818" lims:id="297818">
+                  <Label>(II)</Label>
+                  <Text>the dependent person is a person, other than a child of the individual in respect of whom paragraph (b.1) applies, who, at the end of the taxation year, is under the age of 18 years and who, by reason of mental or physical infirmity, is likely to be, for a long and continuous period of indefinite duration, dependent on others for significantly more assistance in attending to the dependent person’s personal needs and care, when compared to persons of the same age, and is so dependent on the individual at any time in the year, and</Text>
+                </FormulaParagraph>
+              </FormulaParagraph>
+              <FormulaParagraph lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="297819" lims:id="1310010">
+                <Label>(B)</Label>
+                <Text>in any other case, nil,</Text>
+              </FormulaParagraph>
+            </FormulaDefinition>
+            <FormulaDefinition lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310009" lims:id="1310009">
+              <FormulaTerm>D.01</FormulaTerm>
+              <Text>is the basic personal amount of the individual for the year, and</Text>
+            </FormulaDefinition>
+            <FormulaDefinition lims:inforce-start-date="2018-06-21" lims:fid="297820" lims:id="297820">
+              <FormulaTerm>D.1</FormulaTerm>
+              <Text>is the dependent person’s income for the year,</Text>
+            </FormulaDefinition>
+          </FormulaGroup>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297821" lims:id="297821">
+        <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297822" lims:id="297822">Caregiver amount for infirm child</MarginalNote>
+        <Label>(b.1)</Label>
+        <Text>$2,150 for each child, who is under the age of 18 years at the end of the taxation year, of the individual and who, by reason of mental or physical infirmity, is likely to be, for a long and continuous period of indefinite duration, dependent on others for significantly more assistance in attending to the child’s personal needs and care, when compared to children of the same age if</Text>
+        <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297823" lims:id="297823">
+          <Label>(i)</Label>
+          <Text>the child ordinarily resides throughout the taxation year with the individual together with another parent of the child, or</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297824" lims:id="297824">
+          <Label>(ii)</Label>
+          <Text>except if subparagraph (i) applies, the individual</Text>
+          <Clause lims:inforce-start-date="2018-06-21" lims:fid="297825" lims:id="297825">
+            <Label>(A)</Label>
+            <Text>may deduct an amount under paragraph (b) in respect of the child, or</Text>
+          </Clause>
+          <Clause lims:inforce-start-date="2018-06-21" lims:fid="297826" lims:id="297826">
+            <Label>(B)</Label>
+            <Text>could deduct an amount under paragraph (b) in respect of the child if</Text>
+            <Subclause lims:inforce-start-date="2018-06-21" lims:fid="297827" lims:id="297827">
+              <Label>(I)</Label>
+              <Text>paragraph (4)(a) and the reference in paragraph (4)(b) to “or the same domestic establishment” did not apply to the individual for the taxation year, and</Text>
+            </Subclause>
+            <Subclause lims:inforce-start-date="2018-06-21" lims:fid="297828" lims:id="297828">
+              <Label>(II)</Label>
+              <Text>the child had no income for the year,</Text>
+            </Subclause>
+          </Clause>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="297829" lims:id="1310011">
+        <MarginalNote lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310012" lims:id="1310012">Single status</MarginalNote>
+        <Label>(c)</Label>
+        <Text>except in the case of an individual entitled to a deduction because of paragraph (a) or (b), the basic personal amount of the individual for the year,</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297831" lims:id="297831">
+        <Label>(c.1)</Label>
+        <Text>
+          <Repealed>[Repealed, 2017, c. 20, s. 12]</Repealed>
+        </Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297832" lims:id="297832">
+        <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297833" lims:id="297833">Canada caregiver credit</MarginalNote>
+        <Label>(d)</Label>
+        <Text>for each person who, at any time in the year,</Text>
+        <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297834" lims:id="297834">
+          <Label>(i)</Label>
+          <Text>is dependent on the individual because of mental or physical infirmity, and</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297835" lims:id="297835">
+          <Label>(ii)</Label>
+          <Text>either</Text>
+          <Clause lims:inforce-start-date="2018-06-21" lims:fid="297836" lims:id="297836">
+            <Label>(A)</Label>
+            <Text>is a spouse or common-law partner of the individual, or</Text>
+          </Clause>
+          <Clause lims:inforce-start-date="2018-06-21" lims:fid="297837" lims:id="297837">
+            <Label>(B)</Label>
+            <Text>has attained the age of 18 years and is a dependant of the individual,</Text>
+          </Clause>
+        </Subparagraph>
+        <ContinuedParagraph lims:inforce-start-date="2018-06-21" lims:fid="297838" lims:id="297838">
+          <Text>the amount determined by the formula</Text>
+        </ContinuedParagraph>
+        <FormulaGroup lims:inforce-start-date="2018-06-21" lims:fid="297839" lims:id="297839">
+          <Formula lims:inforce-start-date="2018-06-21" lims:fid="297840" lims:id="297840">
+            <FormulaText>$6,883 − E</FormulaText>
+          </Formula>
+          <FormulaConnector>where</FormulaConnector>
+          <FormulaDefinition lims:inforce-start-date="2018-06-21" lims:fid="297841" lims:id="297841">
+            <FormulaTerm>E</FormulaTerm>
+            <Text>is the amount, if any, by which the dependant’s income for the year exceeds $16,163, and</Text>
+          </FormulaDefinition>
+        </FormulaGroup>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297842" lims:id="297842">
+        <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297843" lims:id="297843">Additional amount</MarginalNote>
+        <Label>(e)</Label>
+        <Text>in the case of an individual entitled to a deduction in respect of a person because of paragraph (a) or (b) and who would also be entitled, but for paragraph (4)(c), to a deduction because of paragraph (d) in respect of the person, the amount by which the amount that would be determined under paragraph (d) exceeds the amount determined under paragraph (a) or (b), as the case may be, in respect of the person.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310014" lims:id="1310014">
+      <MarginalNote lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310015" lims:id="1310015">Definition of <DefinitionRef>basic personal amount</DefinitionRef></MarginalNote>
+      <Label>(1.1)</Label>
+      <Text>For the purposes of subsection (1), <DefinedTermEn>basic personal amount</DefinedTermEn>, of an individual for a taxation year, means the amount determined by the formula</Text>
+      <FormulaGroup lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310016" lims:id="1310016">
+        <Formula lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310017" lims:id="1310017">
+          <FormulaText>A + B</FormulaText>
+        </Formula>
+        <FormulaConnector>where</FormulaConnector>
+        <FormulaDefinition lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310018" lims:id="1310018">
+          <FormulaTerm>A</FormulaTerm>
+          <Text>is $12,298; and</Text>
+        </FormulaDefinition>
+        <FormulaDefinition lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310019" lims:id="1310019">
+          <FormulaTerm>B</FormulaTerm>
+          <Text>is the amount determined by the formula</Text>
+          <FormulaGroup lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310020" lims:id="1310020">
+            <Formula lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310021" lims:id="1310021">
+              <FormulaText>C − D × E</FormulaText>
+            </Formula>
+            <FormulaConnector>where</FormulaConnector>
+            <FormulaDefinition lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310022" lims:id="1310022">
+              <FormulaTerm>C</FormulaTerm>
+              <Text>is the amount determined by the formula</Text>
+              <FormulaGroup lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310023" lims:id="1310023">
+                <Formula lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310024" lims:id="1310024">
+                  <FormulaText>F − G</FormulaText>
+                </Formula>
+                <FormulaConnector>where</FormulaConnector>
+                <FormulaDefinition lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310025" lims:id="1310025">
+                  <FormulaTerm>F</FormulaTerm>
+                  <Text>is</Text>
+                  <FormulaParagraph lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310026" lims:id="1310026">
+                    <Label>(a)</Label>
+                    <Text>for the 2020 taxation year, $13,229,</Text>
+                  </FormulaParagraph>
+                  <FormulaParagraph lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310027" lims:id="1310027">
+                    <Label>(b)</Label>
+                    <Text>for the 2021 taxation year, $13,808,</Text>
+                  </FormulaParagraph>
+                  <FormulaParagraph lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310028" lims:id="1310028">
+                    <Label>(c)</Label>
+                    <Text>for the 2022 taxation year, $14,398, and</Text>
+                  </FormulaParagraph>
+                  <FormulaParagraph lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310029" lims:id="1310029">
+                    <Label>(d)</Label>
+                    <Text>for the 2023 and subsequent taxation years, $15,000, and</Text>
+                  </FormulaParagraph>
+                </FormulaDefinition>
+                <FormulaDefinition lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310030" lims:id="1310030">
+                  <FormulaTerm>G</FormulaTerm>
+                  <Text>is the amount determined for A,</Text>
+                </FormulaDefinition>
+              </FormulaGroup>
+            </FormulaDefinition>
+            <FormulaDefinition lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310031" lims:id="1310031">
+              <FormulaTerm>D</FormulaTerm>
+              <Text>is the amount determined for C, and</Text>
+            </FormulaDefinition>
+            <FormulaDefinition lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310032" lims:id="1310032">
+              <FormulaTerm>E</FormulaTerm>
+              <Text>is</Text>
+              <FormulaParagraph lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310033" lims:id="1310033">
+                <Label>(a)</Label>
+                <Text>if the individual’s income for the year is less than or equal to the first dollar amount for the year referred to in paragraph 117(2)(d), nil, and</Text>
+              </FormulaParagraph>
+              <FormulaParagraph lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310034" lims:id="1310034">
+                <Label>(b)</Label>
+                <Text>in any other case, the lesser of 1 and the amount determined by the formula</Text>
+                <FormulaGroup lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310035" lims:id="1310035">
+                  <Formula lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310036" lims:id="1310036">
+                    <FormulaText>(H − I)/J</FormulaText>
+                  </Formula>
+                  <FormulaConnector>where</FormulaConnector>
+                  <FormulaDefinition lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310037" lims:id="1310037">
+                    <FormulaTerm>H</FormulaTerm>
+                    <Text>is the individual’s income for the year,</Text>
+                  </FormulaDefinition>
+                  <FormulaDefinition lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310038" lims:id="1310038">
+                    <FormulaTerm>I</FormulaTerm>
+                    <Text>is the first dollar amount for the year referred to in paragraph 117(2)(d), and</Text>
+                  </FormulaDefinition>
+                  <FormulaDefinition lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310039" lims:id="1310039">
+                    <FormulaTerm>J</FormulaTerm>
+                    <Text>is the amount determined by the formula</Text>
+                    <FormulaGroup lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310040" lims:id="1310040">
+                      <Formula lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310041" lims:id="1310041">
+                        <FormulaText>K − L</FormulaText>
+                      </Formula>
+                      <FormulaConnector>where</FormulaConnector>
+                      <FormulaDefinition lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310042" lims:id="1310042">
+                        <FormulaTerm>K</FormulaTerm>
+                        <Text>is the first dollar amount for the year referred to in paragraph 117(2)(e), and</Text>
+                      </FormulaDefinition>
+                      <FormulaDefinition lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310043" lims:id="1310043">
+                        <FormulaTerm>L</FormulaTerm>
+                        <Text>is the amount determined for I.</Text>
+                      </FormulaDefinition>
+                    </FormulaGroup>
+                  </FormulaDefinition>
+                </FormulaGroup>
+              </FormulaParagraph>
+            </FormulaDefinition>
+          </FormulaGroup>
+        </FormulaDefinition>
+      </FormulaGroup>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2018-06-21" lims:fid="297844" lims:id="297844">
+      <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297845" lims:id="297845">Age credit</MarginalNote>
+      <Label>(2)</Label>
+      <Text>For the purpose of computing the tax payable under this Part for a taxation year by an individual who, before the end of the year, has attained the age of 65 years, there may be deducted the amount determined by the formula</Text>
+      <FormulaGroup lims:inforce-start-date="2018-06-21" lims:fid="297846" lims:id="297846">
+        <Formula lims:inforce-start-date="2018-06-21" lims:fid="297847" lims:id="297847">
+          <FormulaText>A × ($6,408 – B)</FormulaText>
+        </Formula>
+        <FormulaConnector>where</FormulaConnector>
+        <FormulaDefinition lims:inforce-start-date="2018-06-21" lims:fid="297848" lims:id="297848">
+          <FormulaTerm>A</FormulaTerm>
+          <Text>is the appropriate percentage for the year; and</Text>
+        </FormulaDefinition>
+        <FormulaDefinition lims:inforce-start-date="2018-06-21" lims:fid="297849" lims:id="297849">
+          <FormulaTerm>B</FormulaTerm>
+          <Text>is 15% of the amount, if any, by which the individual’s income for the year would exceed $25,921 if, in computing that income, no amount were included in respect of a gain from a disposition of property to which section 79 applies and no amount were deductible under paragraph 20(1)(ww).</Text>
+        </FormulaDefinition>
+      </FormulaGroup>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2018-06-21" lims:fid="297850" lims:id="297850">
+      <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297851" lims:id="297851">Pension credit</MarginalNote>
+      <Label>(3)</Label>
+      <Text>For the purpose of computing the tax payable under this Part by an individual for a taxation year, there may be deducted an amount determined by the formula</Text>
+      <FormulaGroup lims:inforce-start-date="2018-06-21" lims:fid="297852" lims:id="297852">
+        <Formula lims:inforce-start-date="2018-06-21" lims:fid="297853" lims:id="297853">
+          <FormulaText>A × B</FormulaText>
+        </Formula>
+        <FormulaConnector>where</FormulaConnector>
+        <FormulaDefinition lims:inforce-start-date="2018-06-21" lims:fid="297854" lims:id="297854">
+          <FormulaTerm>A</FormulaTerm>
+          <Text>is the appropriate percentage for the year; and</Text>
+        </FormulaDefinition>
+        <FormulaDefinition lims:inforce-start-date="2018-06-21" lims:fid="297855" lims:id="297855">
+          <FormulaTerm>B</FormulaTerm>
+          <Text>is the lesser of</Text>
+          <FormulaParagraph lims:inforce-start-date="2018-06-21" lims:fid="297856" lims:id="297856">
+            <Label>(a)</Label>
+            <Text>$2,000, and</Text>
+          </FormulaParagraph>
+          <FormulaParagraph lims:inforce-start-date="2018-06-21" lims:fid="297857" lims:id="297857">
+            <Label>(b)</Label>
+            <Text>the total of</Text>
+            <FormulaParagraph lims:inforce-start-date="2018-06-21" lims:fid="297858" lims:id="297858">
+              <Label>(i)</Label>
+              <Text lims:inforce-start-date="2019-04-01" lims:enacted-date="2018-06-21" lims:fid="1119512" lims:id="1121740">the eligible pension income of the individual for the taxation year,</Text>
+            </FormulaParagraph>
+            <FormulaParagraph lims:inforce-start-date="2019-04-01" lims:enacted-date="2018-06-21" lims:fid="297859" lims:id="1121741">
+              <Label>(ii)</Label>
+              <Text>the total of all amounts received by the individual in the year on account of a retirement income security benefit under Part 2 of the <XRefExternal reference-type="act" link="C-16.8">Veterans Well-being Act</XRefExternal>, and</Text>
+            </FormulaParagraph>
+            <FormulaParagraph lims:inforce-start-date="2019-04-01" lims:enacted-date="2018-06-21" lims:fid="1121767" lims:id="1121767">
+              <Label>(iii)</Label>
+              <Text>the total of all amounts received by the individual in the year on account of an income replacement benefit payable to the individual under Part 2 of the <XRefExternal reference-type="act" link="C-16.8">Veterans Well-being Act</XRefExternal>, if the amount is determined under subsection 19.1(1), paragraph 23(1)(b) or subsection 26.1(1) of that Act (as modified, where applicable, under Part 5 of that Act).</Text>
+            </FormulaParagraph>
+          </FormulaParagraph>
+        </FormulaDefinition>
+      </FormulaGroup>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2018-06-21" lims:fid="297860" lims:id="297860">
+      <Label>(3.1) and (3.2)</Label>
+      <Text>
+        <Repealed>[Repealed, 2009, c. 2, s. 34]</Repealed>
+      </Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2018-06-21" lims:fid="297861" lims:id="297861">
+      <Label>(3.3)</Label>
+      <Text>
+        <Repealed>[Repealed, 2007, c. 29, s. 9]</Repealed>
+      </Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2018-06-21" lims:fid="297862" lims:id="297862">
+      <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297863" lims:id="297863">Limitations re s. (1)</MarginalNote>
+      <Label>(4)</Label>
+      <Text>For the purposes of subsection 118(1), the following rules apply:</Text>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297864" lims:id="297864">
+        <Label>(a)</Label>
+        <Text>no amount may be deducted under subsection 118(1) because of paragraphs (a) and (b) of the description of B in subsection 118(1) by an individual in a taxation year for more than one other person;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297865" lims:id="297865">
+        <Label>(a.1)</Label>
+        <Text>no amount may be deducted under subsection (1) because of paragraph (b) of the description of B in subsection (1) by an individual for a taxation year for a person in respect of whom an amount is deducted because of paragraph (a) of that description by another individual for the year if, throughout the year, the person and that other individual are married to each other or in a common-law partnership with each other and are not living separate and apart because of a breakdown of their marriage or the common-law partnership, as the case may be;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297866" lims:id="297866">
+        <Label>(a.2)</Label>
+        <Text>a reference to income for a year is to be read as a reference to that income determined as if, in computing that income, no amount were deductible under paragraph 20(1)(ww);</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297867" lims:id="297867">
+        <Label>(b)</Label>
+        <Text>not more than one individual is entitled to a deduction under subsection (1) because of paragraph (b) of the description of B in that subsection for a taxation year in respect of the same person or the same domestic establishment and where two or more individuals otherwise entitled to such a deduction fail to agree as to the individual by whom the deduction may be made, no such deduction for the year shall be allowed to either or any of them;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297868" lims:id="297868">
+        <Label>(b.1)</Label>
+        <Text>not more than one individual is entitled to a deduction under subsection (1) because of paragraph (b.1) of the description of B in that subsection for a taxation year in respect of the same child and where two or more individuals otherwise entitled to such a deduction fail to agree as to the individual by whom the deduction may be made, no such deduction for the year shall be allowed to either or any of them;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297869" lims:id="297869">
+        <Label>(c)</Label>
+        <Text>if an individual is entitled to a deduction under subsection (1) because of paragraph (a) or (b) of the description of B in subsection (1) for a taxation year in respect of any person, no amount may be deducted because of paragraph (d) of that description by any individual for the year in respect of the person; and</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297870" lims:id="297870">
+        <Label>(d)</Label>
+        <Text>if more than one individual is entitled to a deduction under subsection (1) because of paragraph (d) of the description of B in subsection (1) for a taxation year in respect of the same person,</Text>
+        <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297871" lims:id="297871">
+          <Label>(i)</Label>
+          <Text>the total of all amounts so deductible for the year shall not exceed the maximum amount that would be so deductible for the year by any one of those individuals for that person if that individual were the only individual entitled to deduct an amount for the year because of that paragraph for that person, and</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297872" lims:id="297872">
+          <Label>(ii)</Label>
+          <Text>if the individuals cannot agree as to what portion of the amount each can so deduct, the Minister may fix the portions.</Text>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297873" lims:id="297873">
+        <Label>(e)</Label>
+        <Text>
+          <Repealed>[Repealed, 2017, c. 20, s. 12]</Repealed>
+        </Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2018-06-21" lims:fid="297874" lims:id="297874">
+      <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297875" lims:id="297875">Support</MarginalNote>
+      <Label>(5)</Label>
+      <Text>No amount may be deducted under subsection (1) in computing an individual’s tax payable under this Part for a taxation year in respect of a person where the individual is required to pay a support amount (within the meaning assigned by subsection 56.1(4)) to the individual’s spouse or common-law partner or former spouse or common-law partner in respect of the person and the individual</Text>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297876" lims:id="297876">
+        <Label>(a)</Label>
+        <Text>lives separate and apart from the spouse or common-law partner or former spouse or common-law partner throughout the year because of the breakdown of their marriage or common-law partnership; or</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297877" lims:id="297877">
+        <Label>(b)</Label>
+        <Text>claims a deduction for the year because of section 60 in respect of a support amount paid to the spouse or common-law partner or former spouse or common-law partner.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2018-06-21" lims:fid="297878" lims:id="297878">
+      <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297879" lims:id="297879">Where subsection (5) does not apply</MarginalNote>
+      <Label>(5.1)</Label>
+      <Text>Where, if this Act were read without reference to this subsection, solely because of the application of subsection (5), no individual is entitled to a deduction under paragraph (b) or (b.1) of the description of B in subsection (1) for a taxation year in respect of a child, subsection (5) shall not apply in respect of that child for that taxation year.</Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2018-06-21" lims:fid="297880" lims:id="297880">
+      <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297881" lims:id="297881">Definition of <DefinitionRef>dependant</DefinitionRef></MarginalNote>
+      <Label>(6)</Label>
+      <Text>For the purposes of paragraph (d) of the description of B in subsection (1), <DefinedTermEn>dependant</DefinedTermEn>, of an individual for a taxation year, means a person who at any time in the year is dependent on the individual for support and is</Text>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297882" lims:id="297882">
+        <Label>(a)</Label>
+        <Text>the child or grandchild of the individual or of the individual’s spouse or common-law partner; or</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297883" lims:id="297883">
+        <Label>(b)</Label>
+        <Text>the parent, grandparent, brother, sister, uncle, aunt, niece or nephew, if resident in Canada at any time in the year, of the individual or of the individual’s spouse or common-law partner.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2018-06-21" lims:fid="297884" lims:id="297884">
+      <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297885" lims:id="297885">Definitions</MarginalNote>
+      <Label>(7)</Label>
+      <Text>Subject to subsections (8) and (8.1), for the purposes of this subsection and subsection (3),</Text>
+      <Definition lims:inforce-start-date="2018-06-21" lims:fid="297886" lims:id="297886">
+        <Text><DefinedTermEn>eligible pension income</DefinedTermEn> of an individual for a taxation year means</Text>
+        <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297887" lims:id="297887">
+          <Label>(a)</Label>
+          <Text>if the individual has attained the age of 65 years before the end of the taxation year, the pension income received by the individ-ual in the taxation year, and</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297888" lims:id="297888">
+          <Label>(b)</Label>
+          <Text>if the individual has not attained the age of 65 years before the end of the taxation year, the qualified pension income received by the individual in the taxation year; (<DefinedTermFr>revenu de pension déterminé</DefinedTermFr>)</Text>
+        </Paragraph>
+      </Definition>
+      <Definition lims:inforce-start-date="2018-06-21" lims:fid="297889" lims:id="297889">
+        <Text><DefinedTermEn>pension income</DefinedTermEn> received by an individual in a taxation year means the total of</Text>
+        <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297890" lims:id="297890">
+          <Label>(a)</Label>
+          <Text>the total of all amounts each of which is an amount included in computing the individual’s income for the year that is</Text>
+          <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297891" lims:id="297891">
+            <Label>(i)</Label>
+            <Text>a payment in respect of a life annuity out of or under a superannuation or pension plan (other than a pooled registered pension plan) or a specified pension plan,</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297892" lims:id="297892">
+            <Label>(ii)</Label>
+            <Text>an annuity payment under a registered retirement savings plan, under an “amended plan” as referred to in subsection 146(12) or under an annuity in respect of which an amount is included in computing the individual’s income by reason of paragraph 56(1)(d.2),</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297893" lims:id="297893">
+            <Label>(iii)</Label>
+            <Text>a payment out of or under a registered retirement income fund or under an “amended fund” as referred to in subsection 146.3(11),</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2023-06-22" lims:enacted-date="2023-06-22" lims:fid="297894" lims:id="1416054">
+            <Label>(iii.1)</Label>
+            <Text>a payment (other than a payment described in subparagraph (i)) under a <DefinitionRef>money purchase provision</DefinitionRef> (as defined in subsection 147.1(1)) of a registered pension plan or under a specified pension plan,</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297895" lims:id="297895">
+            <Label>(iii.2)</Label>
+            <Text>an amount included under section 147.5,</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310061" lims:id="1310061">
+            <Label>(iii.3)</Label>
+            <Text>an amount included under subsection 146.5(2),</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297896" lims:id="297896">
+            <Label>(iv)</Label>
+            <Text>an annuity payment under a deferred profit sharing plan or under a “revoked plan” as referred to in subsection 147(15),</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297897" lims:id="297897">
+            <Label>(v)</Label>
+            <Text>a payment described in subparagraph 147(2)(k)(v), or</Text>
+          </Subparagraph>
+          <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297898" lims:id="297898">
+            <Label>(vi)</Label>
+            <Text>the amount by which an annuity payment included in computing the individual’s income for the year by reason of paragraph 56(1)(d) exceeds the capital element of that payment as determined or established under paragraph 60(a), and</Text>
+          </Subparagraph>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297899" lims:id="297899">
+          <Label>(b)</Label>
+          <Text>the total of all amounts each of which is an amount included in computing the individual’s income for the year by reason of section 12.2 of this Act or paragraph 56(1)(d.1) of the <XRefExternal reference-type="act" link="I-3.3">Income Tax Act</XRefExternal>, chapter 148 of the Revised Statutes of Canada, 1952; (<DefinedTermFr>revenu de pension</DefinedTermFr>)</Text>
+        </Paragraph>
+      </Definition>
+      <Definition lims:inforce-start-date="2018-06-21" lims:fid="297900" lims:id="297900">
+        <Text><DefinedTermEn>qualified pension income</DefinedTermEn> received by an individual in a taxation year means the total of all amounts each of which is an amount included in computing the individual’s income for the year and described in</Text>
+        <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297901" lims:id="297901">
+          <Label>(a)</Label>
+          <Text>subparagraph (a)(i) of the definition <DefinitionRef>pension income</DefinitionRef> in this subsection, or</Text>
+        </Paragraph>
+        <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297902" lims:id="297902">
+          <Label>(b)</Label>
+          <Text>any of subparagraphs 118(7) qualified pension income (a)(ii) to 118(7) qualified pension income (a)(vi) or paragraph (b) of the definition <DefinitionRef>pension income</DefinitionRef> in this subsection received by the individual as a consequence of the death of a spouse or common-law partner of the individual. (<DefinedTermFr>revenu de pension admissible</DefinedTermFr>)</Text>
+        </Paragraph>
+      </Definition>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2018-06-21" lims:fid="297903" lims:id="297903">
+      <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297904" lims:id="297904">Interpretation</MarginalNote>
+      <Label>(8)</Label>
+      <Text>For the purposes of subsection (7), <DefinedTermEn>pension income</DefinedTermEn> and <DefinedTermEn>qualified pension income</DefinedTermEn> received by an individual in a taxation year do not include any amount that is</Text>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297905" lims:id="297905">
+        <Label>(a)</Label>
+        <Text>the amount of a pension or supplement under the <XRefExternal reference-type="act" link="O-9">Old Age Security Act</XRefExternal> or of any similar payment under a law of a province;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297906" lims:id="297906">
+        <Label>(b)</Label>
+        <Text>the amount of a benefit under the <XRefExternal reference-type="act" link="C-8">Canada Pension Plan</XRefExternal> or under a provincial pension plan as defined in section 3 of that Act;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297907" lims:id="297907">
+        <Label>(c)</Label>
+        <Text>a death benefit;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297908" lims:id="297908">
+        <Label>(d)</Label>
+        <Text>the amount, if any, by which</Text>
+        <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297909" lims:id="297909">
+          <Label>(i)</Label>
+          <Text>an amount required to be included in computing the individual’s income for the year</Text>
+        </Subparagraph>
+        <ContinuedParagraph lims:inforce-start-date="2018-06-21" lims:fid="297910" lims:id="297910">
+          <Text>exceeds</Text>
+        </ContinuedParagraph>
+        <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297911" lims:id="297911">
+          <Label>(ii)</Label>
+          <Text>the amount, if any, by which the amount referred to in subparagraph (i) exceeds the total of all amounts deducted (other than under paragraph 60(c)) by the individual for the year in respect of that amount;</Text>
+        </Subparagraph>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297912" lims:id="297912">
+        <Label>(e)</Label>
+        <Text>a payment received out of or under a salary deferral arrangement, a retirement compensation arrangement, an employee benefit plan or an employee trust; or</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297913" lims:id="297913">
+        <Label>(f)</Label>
+        <Text>a payment (other than a payment under the <XRefExternal reference-type="act" link="J-1">Judges Act</XRefExternal> or the <XRefExternal reference-type="act" link="L-8">Lieutenant Governors Superannuation Act</XRefExternal>) received out of or under an unfunded supplemental plan or arrangement, being a plan or arrangement where</Text>
+        <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297914" lims:id="297914">
+          <Label>(i)</Label>
+          <Text>the payment was in respect of services rendered to an employer by the individual or the individual’s spouse or common-law partner or former spouse or common-law partner as an employee, and</Text>
+        </Subparagraph>
+        <Subparagraph lims:inforce-start-date="2018-06-21" lims:fid="297915" lims:id="297915">
+          <Label>(ii)</Label>
+          <Text>the plan or arrangement would have been a retirement compensation arrangement or an employee benefit plan had the employer made a contribution in respect of the payment to a trust governed by the plan or arrangement.</Text>
+        </Subparagraph>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2018-06-21" lims:fid="297916" lims:id="297916">
+      <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297917" lims:id="297917">Bridging benefits</MarginalNote>
+      <Label>(8.1)</Label>
+      <Text>For the purposes of subsection (7), a payment in respect of a life annuity under a superannuation or pension plan is deemed to include a payment in respect of bridging benefits, being benefits payable under a registered pension plan on a periodic basis and not less frequently than annually to an individual where</Text>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297918" lims:id="297918">
+        <Label>(a)</Label>
+        <Text>the individual or the individual’s spouse or common-law partner or former spouse or common-law partner was a member (as defined in subsection 147.1(1)) of the registered pension plan;</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297919" lims:id="297919">
+        <Label>(b)</Label>
+        <Text>the benefits are payable for a period ending no later than the end of the month following the month in which the member attains 65 years of age or would have attained that age if the member had survived to that day; and</Text>
+      </Paragraph>
+      <Paragraph lims:inforce-start-date="2018-06-21" lims:fid="297920" lims:id="297920">
+        <Label>(c)</Label>
+        <Text>the amount (expressed on an annualized basis) of the benefits payable to the individual for a calendar year does not exceed the total of the maximum amount of benefits payable for that year under Part I of the <XRefExternal reference-type="act" link="O-9">Old Age Security Act</XRefExternal> and the maximum amount of benefits (other than disability, death or survivor benefits) payable for that year under either the <XRefExternal reference-type="act" link="C-8">Canada Pension Plan</XRefExternal> or a provincial pension plan as defined in section 3 of that Act.</Text>
+      </Paragraph>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2018-06-21" lims:fid="297921" lims:id="297921">
+      <Label>(9)</Label>
+      <Text>
+        <Repealed>[Repealed, 2009, c. 2, s. 34]</Repealed>
+      </Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2018-06-21" lims:fid="297922" lims:id="297922">
+      <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297923" lims:id="297923">Child tax credit</MarginalNote>
+      <Label>(9.1)</Label>
+      <Text>For greater certainty, in the case of a child who in a taxation year is born, adopted or dies, the reference to “throughout the taxation year” in subparagraph 118(1)(b.1)(i) is to be read as a reference to “throughout the portion of the taxation year that is after the child’s birth or adoption or before the child’s death”.</Text>
+    </Subsection>
+    <Subsection lims:inforce-start-date="2018-06-21" lims:fid="297924" lims:id="297924">
+      <MarginalNote lims:inforce-start-date="2018-06-21" lims:fid="297925" lims:id="297925">Canada Employment Credit</MarginalNote>
+      <Label>(10)</Label>
+      <Text>For the purpose of computing the tax payable under this Part by an individual for a taxation year, there may be deducted the amount determined by the formula</Text>
+      <FormulaGroup lims:inforce-start-date="2018-06-21" lims:fid="297926" lims:id="297926">
+        <Formula lims:inforce-start-date="2018-06-21" lims:fid="297927" lims:id="297927">
+          <FormulaText>A × B</FormulaText>
+        </Formula>
+        <FormulaConnector>where</FormulaConnector>
+        <FormulaDefinition lims:inforce-start-date="2018-06-21" lims:fid="297928" lims:id="297928">
+          <FormulaTerm>A</FormulaTerm>
+          <Text>is the appropriate percentage for the taxation year; and</Text>
+        </FormulaDefinition>
+        <FormulaDefinition lims:inforce-start-date="2018-06-21" lims:fid="297929" lims:id="297929">
+          <FormulaTerm>B</FormulaTerm>
+          <Text>is the lesser of</Text>
+          <FormulaParagraph lims:inforce-start-date="2018-06-21" lims:fid="297930" lims:id="297930">
+            <Label>(a)</Label>
+            <Text>$1,000, and</Text>
+          </FormulaParagraph>
+          <FormulaParagraph lims:inforce-start-date="2018-06-21" lims:fid="297931" lims:id="297931">
+            <Label>(b)</Label>
+            <Text>the total of all amounts, each of which is an amount included in computing the individual’s income for the taxation year from an office or employment or an amount included in the taxpayer’s income for the taxation year because of subparagraph 56(1)(r)(v).</Text>
+          </FormulaParagraph>
+        </FormulaDefinition>
+      </FormulaGroup>
+    </Subsection>
+    <HistoricalNote>
+      <HistoricalNoteSubItem>[NOTE: Application provisions are not included in the consolidated text; see relevant amending Acts and regulations.] </HistoricalNoteSubItem>
+      <HistoricalNoteSubItem lims:inforce-start-date="2018-06-21" lims:fid="297933" lims:id="297933">R.S., 1985, c. 1 (5th Supp.), s. 118; 1994, c. 7, Sch. VII, s. 8, Sch. VIII, s. 52; 1995, c. 3, s. 33; 1997, c. 25, s. 25; 1998, c. 19, s. 134; 1999, c. 22, s. 31; 2000, c. 12, ss. 131, 142, c. 19, s. 24; 2001, c. 17, ss. 93, 243(E); 2005, c. 30, s. 5; 2006, c. 4, s. 60; 2007, c. 2, s. 20, c. 29, s. 9, c. 35, ss. 36, 180; 2009, c. 2, s. 34; 2011, c. 24, s. 23; 2012, c. 31, s. 25; 2013, c. 34, s. 246; 2015, c. 36, s. 30; 2017, c. 20, s. 12, c. 33, s. 42; 2018, c. 12, s. 11</HistoricalNoteSubItem>
+      <HistoricalNoteSubItem lims:inforce-start-date="2021-06-29" lims:enacted-date="2021-06-29" lims:fid="1310062" lims:id="1310062" lims:enactId="1306107">2021, c. 23, s. 19</HistoricalNoteSubItem>
+      <HistoricalNoteSubItem lims:inforce-start-date="2023-06-22" lims:enacted-date="2023-06-22" lims:fid="1416055" lims:id="1416055" lims:enactId="1408778">2023, c. 26, s. 27</HistoricalNoteSubItem>
+    </HistoricalNote>
+  </Section>
+</Statute>
