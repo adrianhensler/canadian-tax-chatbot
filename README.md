@@ -71,6 +71,7 @@ See [docs/architecture.md](docs/architecture.md) for full technical details.
 | [Architecture](docs/architecture.md) | Technical implementation plan (includes TDD methodology) |
 | [Ingestion Specification](docs/ingestion-spec.md) | How to ingest Justice Laws XML and CRA content |
 | [Research Notes](docs/research-notes.md) | Background research and strategic analysis |
+| [Evaluation Dataset](eval/README.md) | Q&A pairs for testing (CC0 public domain - contributions welcome!) |
 
 ---
 

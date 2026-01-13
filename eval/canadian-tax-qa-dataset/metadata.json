@@ -1,0 +1,10 @@
+{
+  "description": "Evaluation dataset for Canadian tax question answering using retrieval‑augmented generation (RAG). Contains curated questions and authoritative answers derived from CRA and Justice Canada resources.",
+  "created": "2026-01-13",
+  "license": "CC0-1.0",
+  "sources": [
+    "https://open.canada.ca/data/dataset/ff56de85-f8b9-4719-8dff-ecf362adf0af",
+    "https://design.canada.ca/guidance/structured-data.html",
+    "https://www.canada.ca/en/revenue-agency/news/newsroom/tax-tips/tax-tips-2025/find-answers-taxpayers-most-common-questions-right-here.html"
+  ]
+}

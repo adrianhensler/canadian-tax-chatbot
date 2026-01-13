@@ -140,4 +140,5 @@ Canadian taxpayers face a complex tax system with thousands of pages of legislat
 
 - [Architecture Document](./architecture.md) - Technical implementation details (includes TDD methodology)
 - [Ingestion Specification](./ingestion-spec.md) - Document ingestion implementation guide
+- [Evaluation Dataset](../eval/README.md) - Q&A pairs for testing (15 questions, CC0 license, contributions welcome)
 - [Research Notes](./research-notes.md) - Strategic analysis and background research

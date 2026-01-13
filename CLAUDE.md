@@ -139,10 +139,10 @@ src/
 | Hallucination rate | <5% | Did answer invent rules not in corpus? |
 | Retrieval recall | >85% | Did retrieval find relevant section? |
 
-Build evaluation set from:
-- CRA FAQ pages (scrape and structure)
-- Tax forums (r/PersonalFinanceCanada)
-- Synthetic edge cases based on ITA sections
+**Evaluation Dataset:** `eval/canadian-tax-qa-dataset/`
+- 15 curated questions (7 basic, 5 tricky, 3 should-refuse)
+- CC0 public domain - contributions welcome
+- See `eval/README.md` for format and contribution guidelines
 
 ---
 
