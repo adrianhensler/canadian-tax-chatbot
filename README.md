@@ -8,7 +8,8 @@ A RAG-powered chatbot that answers Canadian income tax questions with citations 
 
 **Phase 1 Complete:** Corpus Ingestion ✓
 **Phase 2 Complete:** LLM Integration ✓
-**Phase 3:** User Interface (Not Started)
+**Phase 3 Complete:** CLI Interface ✓
+**Phase 4:** Web UI & Advanced Features (Not Started)
 
 ### What's Working
 
@@ -20,16 +21,16 @@ A RAG-powered chatbot that answers Canadian income tax questions with citations 
 - ✅ Answer generation with automatic citation extraction
 - ✅ Citation validation against retrieved sources
 - ✅ Refusal detection for complex tax situations
+- ✅ **CLI interface** with single-question and interactive modes
 - ✅ Test suite: 73/74 tests passing (1 skipped)
 
 ### What's NOT Working
 
 - ❌ No CRA Folios or guidance documents (ITA only)
-- ❌ No UI (CLI or web) - Python API only
-- ❌ No interactive chat interface
+- ❌ No web UI (CLI only)
 - ❌ No evaluation against full dataset (only 15 questions currently)
 
-**Note:** The chatbot can answer tax questions programmatically, but there's no user-friendly interface yet.
+**Note:** The chatbot is fully functional via CLI. Run `python scripts/cli.py --help` for usage.
 
 ---
 
@@ -61,8 +62,10 @@ Ask a question about Canadian personal income tax. The chatbot retrieves relevan
 - ✅ Refusal detection for professional advice cases
 - ✅ Chatbot orchestration (retrieve → generate → validate)
 
-### Phase 3: User Interface (Not Started)
-- ⏳ CLI interface
+### Phase 3: CLI Interface (✓ Complete)
+- ✅ CLI with single-question and interactive modes
+- ✅ JSON output for scripting
+- ✅ Verbose mode for debugging
 - ⏳ Web UI (Streamlit or Next.js)
 - ⏳ Docker deployment
 
@@ -149,7 +152,26 @@ python scripts/ingest_corpus.py --download
 pytest tests/ -v
 ```
 
-### Using the Chatbot (Python API)
+### Using the CLI
+
+```bash
+# Set your OpenAI API key
+export OPENAI_API_KEY=sk-...
+
+# Ask a single question
+python scripts/cli.py "What is the basic personal amount?"
+
+# Interactive mode - continuous conversation
+python scripts/cli.py --interactive
+
+# JSON output for scripting
+python scripts/cli.py "What is RRSP contribution limit?" --json
+
+# Verbose mode - show retrieved chunks
+python scripts/cli.py "What is TFSA?" -v
+```
+
+### Using the Python API
 
 ```python
 from src.chat.chatbot import Chatbot
