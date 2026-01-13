@@ -138,6 +138,52 @@ for q in questions:
 
 ---
 
+## v0.1 Evaluation Targets
+
+### Minimum Dataset Size
+
+For v0.1, the evaluation corpus must include **100+ questions** with coverage buckets:
+
+- **50+** basic/common taxpayer questions
+- **30+** tricky/edge-case scenarios
+- **20+** should-refuse (professional advice / out-of-scope)
+
+### Metrics and Thresholds
+
+Report metrics on the full evaluation corpus:
+
+- **Citation accuracy ≥ 0.85** (fraction of answers with correct CRA/ITA sources)
+- **Hallucination rate ≤ 0.05** (fraction of answers containing unsupported tax rules)
+- **Refusal correctness ≥ 0.90** (fraction of should-refuse prompts handled correctly)
+
+### Release Gate
+
+**Do not ship v0.1** unless:
+
+- All metrics meet or exceed targets **on corpus version `v0.1`**, and
+- Results are logged and reproducible from the evaluation harness.
+
+### Lightweight Evaluation Harness Plan
+
+Implement a lightweight script at `eval/run_eval.py` that:
+
+- **Inputs:**
+  - Dataset path (default `eval/canadian-tax-qa-dataset/`)
+  - Model endpoint/config (e.g., `--model` or `--api-url`)
+  - Optional output directory (default `eval/results/`)
+- **Outputs:**
+  - `metrics.json` with the aggregate metrics above
+  - `per_question.jsonl` with question, answer, citations, and pass/fail flags
+  - Console summary with metric totals and threshold pass/fail
+
+Example invocation:
+
+```bash
+python eval/run_eval.py --dataset eval/canadian-tax-qa-dataset --model local
+```
+
+---
+
 ## Expansion Roadmap
 
 Target: **100+ questions** covering:
