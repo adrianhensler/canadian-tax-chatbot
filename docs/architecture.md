@@ -14,6 +14,8 @@ Two deployment modes are supported:
 
 Both modes share core components: document ingestion, vector search, language model interface, and answer formatting.
 
+**Language scope (v0.1):** English-only UI and responses. The ingestion pipeline targets English consolidations and English CRA guidance, so citations are English-only and do not reflect the official French wording. Users who need French-language legal text must consult the bilingual sources directly.
+
 ---
 
 ## Table of Contents
@@ -189,8 +191,8 @@ Build core functions as discrete callable tools with JSON inputs/outputs. This e
 #### Corpus Ingestion and Indexing
 
 **Sources:**
-- Income Tax Act and Regulations from [Justice Laws](https://laws-lois.justice.gc.ca/) (XML consolidations)
-- CRA Folios (excerpts only)
+- Income Tax Act and Regulations from [Justice Laws](https://laws-lois.justice.gc.ca/) (English XML consolidations)
+- CRA Folios (English excerpts only)
 - Update frequency: Every ~2 weeks (matches Justice Laws consolidation schedule)
 
 **Processing:**
@@ -267,6 +269,7 @@ LLM calls calculator via function calling - never performs final math itself.
 - Document upload area
 - Toggle for raw JSON output
 - Mobile-responsive
+- English-only labels and system messages in v0.1
 
 #### Deployment
 
