@@ -7,11 +7,14 @@ This directory contains curated question-answer pairs for evaluating retrieval-a
 ## Dataset Structure
 
 ```
-eval/canadian-tax-qa-dataset/
-├── metadata.json              # Dataset metadata and sources
-├── basic_questions.jsonl      # Common tax questions (7 questions)
-├── tricky_questions.jsonl     # Edge cases and nuanced scenarios (5 questions)
-└── should_refuse.jsonl        # Cases requiring professional advice (3 questions)
+eval/
+├── canadian-tax-qa-dataset/
+│   ├── metadata.json              # Dataset metadata and sources
+│   ├── basic_questions.jsonl      # Common tax questions (7 questions)
+│   ├── tricky_questions.jsonl     # Edge cases and nuanced scenarios (5 questions)
+│   └── should_refuse.jsonl        # Cases requiring professional advice (3 questions)
+└── examples/
+    └── initial-dataset-v1.zip     # Original dataset archive (reference/backup)
 ```
 
 **Total:** 15 questions
