@@ -6,9 +6,26 @@ A RAG-powered chatbot that answers Canadian income tax questions with citations 
 
 ## Status
 
-**Phase:** Planning / Pre-implementation
+**Phase 1 Complete:** Corpus Ingestion ✓
+**Phase 2:** LLM Integration & UI (Not Started)
 
-This project is in the documentation and design phase. No code has been written yet. The architecture and requirements are documented; implementation will follow.
+### What's Working
+
+- ✅ Income Tax Act XML parsing (774 sections)
+- ✅ Section-aware chunking with metadata preservation (3,878 chunks)
+- ✅ Local embeddings (MiniLM-L6-v2) and ChromaDB vector store
+- ✅ Retrieval interface for finding relevant ITA sections
+- ✅ Test suite: 31/32 tests passing
+
+### What's NOT Working
+
+- ❌ No chatbot interface (no LLM integration yet)
+- ❌ No answer generation from retrieved chunks
+- ❌ No CRA Folios or guidance documents (ITA only)
+- ❌ No UI (CLI or web)
+- ❌ Cannot actually answer tax questions yet
+
+**This is infrastructure only.** The retrieval pipeline works, but there's no user-facing chatbot.
 
 ---
 
@@ -23,13 +40,31 @@ Ask a question about Canadian personal income tax. The chatbot retrieves relevan
 
 ---
 
-## Planned Features
+## Implementation Progress
 
-- **Q&A with Citations** - Ask questions, get answers with source references
-- **Local Mode** - Run entirely on your machine via Docker + Ollama (no data leaves your device)
-- **Hosted Mode** - Web service using Claude/GPT APIs for higher quality answers
-- **Hybrid Retrieval** - Vector search + keyword matching for accurate document retrieval
-- **Deterministic Calculations** - Tax math handled by code, not the LLM
+### Phase 1: Corpus Ingestion (✓ Complete)
+- ✅ XML parser for Justice Laws format
+- ✅ Section-aware chunking respecting ITA structure
+- ✅ Embedding generation (local + API support)
+- ✅ ChromaDB vector store with persistence
+- ✅ Full ITA ingestion pipeline
+
+### Phase 2: LLM Integration (Not Started)
+- ⏳ LLM interface (Claude/GPT/local models)
+- ⏳ Prompt engineering for tax Q&A
+- ⏳ Citation extraction and formatting
+- ⏳ Answer generation with retrieved context
+
+### Phase 3: User Interface (Not Started)
+- ⏳ CLI interface
+- ⏳ Web UI (Streamlit or Next.js)
+- ⏳ Docker deployment
+
+### Phase 4: Advanced Features (Not Started)
+- ⏳ CRA Folios scraping and ingestion
+- ⏳ Hybrid search (BM25 + vector)
+- ⏳ Deterministic tax calculator
+- ⏳ Interview mode (guided questions)
 
 ---
 
@@ -89,6 +124,27 @@ Tax law reproduced under the [Reproduction of Federal Law Order](https://laws-lo
 
 ---
 
+## Development
+
+To run the existing ingestion pipeline:
+
+```bash
+# Setup
+python3 -m venv venv
+source venv/bin/activate  # or `venv\Scripts\activate` on Windows
+pip install -e .
+
+# Run ingestion (takes ~15 minutes on 2 cores)
+python scripts/ingest_corpus.py --download
+
+# Run tests
+pytest tests/ -v
+```
+
+**Note:** This only sets up the retrieval infrastructure. There's no chatbot to interact with yet.
+
+---
+
 ## Contributing
 
-Contributions welcome once implementation begins. See the [PRD](docs/PRD.md) for project scope and [Architecture](docs/architecture.md) for technical approach.
+Contributions welcome! Phase 1 is complete, but Phase 2+ need work. See the [PRD](docs/PRD.md) for project scope and [Architecture](docs/architecture.md) for technical approach.
