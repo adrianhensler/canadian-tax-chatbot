@@ -112,6 +112,7 @@ src/
    - Redact PII before sending to hosted LLM APIs
    - Local mode: No data transmission
    - Hosted mode: No persistent storage of user queries
+   - See `docs/architecture.md` → "PII Handling for Hosted Mode" for detailed spec
 
 4. **Disclaimers Required:**
    - "Not legal or tax advice"
@@ -157,6 +158,8 @@ src/
    - Check `https://laws-lois.justice.gc.ca/eng/XML/Legis.xml` for consolidation dates
    - Re-index only changed documents (incremental updates)
    - Schedule: Every ~2 weeks (cron/Celery)
+   - **Versioning:** Each corpus is versioned (`corpus-YYYY-MM-DD`) with manifest and checksums
+   - See `docs/ingestion-spec.md` → "Corpus Versioning" for rollback procedures
 
 3. **CRA Folios (scrape, no API exists):**
    - Start with curated list of 20-30 priority folios

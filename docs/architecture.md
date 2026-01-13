@@ -375,6 +375,47 @@ docker compose up        # Start all services
 - User can delete conversation history
 - Regular security audits
 
+##### PII Handling for Hosted Mode
+
+User queries are sent to third-party LLM APIs (Anthropic, OpenAI, or via OpenRouter). The following rules apply:
+
+**Always redact before API call:**
+- Social Insurance Number (SIN) - pattern: `\d{3}-\d{3}-\d{3}`
+- Full legal names (if detected)
+- Street addresses
+- Phone numbers, email addresses
+- Bank account numbers, credit card numbers
+
+**Not considered PII for this purpose:**
+- Income amounts (required for tax questions)
+- Province of residence (required for provincial tax)
+- Tax year
+- Employment type, deduction categories
+
+**Implementation:**
+```
+User Input → Redaction Layer → LLM API → Response → User
+                  ↓
+            [Redacted values stored in session memory]
+            [Restored in response if needed]
+```
+
+**Logging policy:**
+- Request logs: Timestamp, session ID, response latency only
+- No query content in logs
+- No financial amounts in logs
+- IP addresses anonymized (last octet zeroed)
+
+**Retention:**
+- User queries: Zero persistent storage
+- Session data: Memory only, cleared on session end
+- Conversation history (if enabled): User-controlled, deletable
+
+**Transparency:**
+- Privacy banner on first use explaining data flow
+- Link to full privacy policy
+- Clear indication when query is sent to external API
+
 #### Operations
 
 **Deployment:** AWS, Azure, or GCP with container orchestration

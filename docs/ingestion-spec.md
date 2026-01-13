@@ -15,8 +15,9 @@ This document specifies how to ingest Canadian tax law documents into the RAG sy
 3. [XML Parsing and Structure](#xml-parsing-and-structure)
 4. [Chunking Strategy](#chunking-strategy)
 5. [Update Detection](#update-detection)
-6. [Custom Document Ingestion](#custom-document-ingestion)
-7. [Implementation Checklist](#implementation-checklist)
+6. [Corpus Versioning](#corpus-versioning)
+7. [Custom Document Ingestion](#custom-document-ingestion)
+8. [Implementation Checklist](#implementation-checklist)
 
 ---
 
@@ -485,6 +486,201 @@ if check_for_updates()['update_available']:
 
 ---
 
+## Corpus Versioning
+
+### Why Versioning Matters
+
+- **Reproducibility:** Eval results are meaningless without knowing which corpus was tested
+- **Debugging:** Wrong answer reports require tracing back to corpus version
+- **Rollback:** Bad ingest (parsing error, corrupted data) needs quick recovery
+- **Comparison:** Isolate whether quality changes come from model tuning or corpus changes
+
+### Version Naming
+
+Use date-based naming tied to the primary source consolidation date:
+
+```
+corpus-YYYY-MM-DD
+```
+
+Examples:
+- `corpus-2025-01-15` - Corpus built from Jan 15, 2025 consolidation
+- `corpus-2025-02-01` - Corpus built from Feb 1, 2025 consolidation
+
+### Manifest File
+
+Each corpus version includes a `corpus_manifest.json`:
+
+```json
+{
+  "version": "corpus-2025-01-15",
+  "created_at": "2025-01-15T06:00:00Z",
+  "sources": {
+    "ITA": {
+      "file": "I-3.3.xml",
+      "consolidated_date": "2025-01-10",
+      "sha256": "a1b2c3d4e5f6..."
+    },
+    "ITR": {
+      "file": "C.R.C.,_c._945.xml",
+      "consolidated_date": "2025-01-10",
+      "sha256": "f6e5d4c3b2a1..."
+    },
+    "CRA_Folios": {
+      "count": 25,
+      "scraped_at": "2025-01-14T12:00:00Z",
+      "folio_list": ["S1-F1-C1", "S1-F2-C1", "..."]
+    }
+  },
+  "processing": {
+    "chunk_count": 4521,
+    "embedding_model": "mistral-embed-v1",
+    "chunking_config": {
+      "max_tokens": 1500,
+      "overlap_tokens": 200
+    }
+  },
+  "checksums": {
+    "chunks_file": "sha256:abc123...",
+    "vector_index": "sha256:def456..."
+  }
+}
+```
+
+### Directory Structure
+
+```
+data/
+├── corpus/
+│   ├── current -> corpus-2025-01-15/    # Symlink to active version
+│   ├── corpus-2025-01-15/
+│   │   ├── corpus_manifest.json
+│   │   ├── chunks.jsonl
+│   │   ├── vectors.faiss (or chroma/)
+│   │   └── sources/
+│   │       ├── I-3.3.xml
+│   │       └── C.R.C.,_c._945.xml
+│   ├── corpus-2025-01-01/
+│   │   └── ...
+│   └── corpus-2024-12-15/
+│       └── ...
+└── archive/                              # Cold storage for older versions
+```
+
+### Retention Policy
+
+- **Active:** Keep last 3 corpus versions on disk
+- **Archive:** Move older versions to cold storage (S3 Glacier, etc.)
+- **Minimum:** Always keep at least one known-good version for rollback
+
+### Rollback Procedure
+
+```bash
+# List available versions
+./scripts/corpus-manager list
+
+# Output:
+# * corpus-2025-01-15 (current)
+#   corpus-2025-01-01
+#   corpus-2024-12-15
+
+# Rollback to previous version
+./scripts/corpus-manager rollback corpus-2025-01-01
+
+# This:
+# 1. Verifies checksums of target version
+# 2. Updates 'current' symlink
+# 3. Restarts retrieval service to load new index
+# 4. Logs rollback event
+```
+
+### Implementation
+
+```python
+import hashlib
+import json
+from pathlib import Path
+from datetime import datetime
+
+def create_corpus_version(sources_dir: Path, output_dir: Path) -> dict:
+    """
+    Create a new versioned corpus with manifest.
+    """
+    version = f"corpus-{datetime.now().strftime('%Y-%m-%d')}"
+    version_dir = output_dir / version
+    version_dir.mkdir(parents=True, exist_ok=True)
+
+    manifest = {
+        "version": version,
+        "created_at": datetime.now().isoformat(),
+        "sources": {},
+        "processing": {},
+        "checksums": {}
+    }
+
+    # Copy sources and compute checksums
+    for source_file in sources_dir.glob("*.xml"):
+        content = source_file.read_bytes()
+        sha256 = hashlib.sha256(content).hexdigest()
+
+        # Copy to version directory
+        dest = version_dir / "sources" / source_file.name
+        dest.parent.mkdir(exist_ok=True)
+        dest.write_bytes(content)
+
+        manifest["sources"][source_file.stem] = {
+            "file": source_file.name,
+            "sha256": sha256
+        }
+
+    return manifest
+
+def verify_corpus_integrity(version_dir: Path) -> bool:
+    """
+    Verify checksums match manifest.
+    """
+    manifest_path = version_dir / "corpus_manifest.json"
+    manifest = json.loads(manifest_path.read_text())
+
+    for source_name, source_info in manifest["sources"].items():
+        if "sha256" not in source_info:
+            continue
+
+        file_path = version_dir / "sources" / source_info["file"]
+        actual_hash = hashlib.sha256(file_path.read_bytes()).hexdigest()
+
+        if actual_hash != source_info["sha256"]:
+            print(f"Checksum mismatch: {source_name}")
+            return False
+
+    return True
+```
+
+### Linking Evals to Corpus Version
+
+When running evaluations, always record the corpus version:
+
+```python
+eval_result = {
+    "eval_run_id": "eval-2025-01-16-001",
+    "corpus_version": "corpus-2025-01-15",  # From manifest
+    "model": "claude-opus-4-5",
+    "metrics": {
+        "citation_accuracy": 0.92,
+        "hallucination_rate": 0.03,
+        "retrieval_recall": 0.87
+    },
+    "timestamp": "2025-01-16T10:30:00Z"
+}
+```
+
+This enables queries like:
+- "Show all eval runs for corpus-2025-01-15"
+- "Compare retrieval recall across corpus versions"
+- "Which corpus version had the regression?"
+
+---
+
 ## Custom Document Ingestion
 
 ### User-Provided Documents
@@ -574,13 +770,17 @@ def ingest_custom_document(file_path, metadata):
 - [ ] Add disclaimer metadata (Crown copyright, excerpts only)
 - [ ] Index folio excerpts alongside federal law
 
-### Phase 3: Updates
+### Phase 3: Updates and Versioning
 
 - [ ] Implement Legis.xml parser to check consolidation dates
 - [ ] Create update detection script
 - [ ] Set up scheduled task (cron/Celery) to check bi-weekly
 - [ ] Implement incremental re-indexing for changed documents
 - [ ] Add logging and notifications for update events
+- [ ] Implement corpus versioning (manifest, checksums, directory structure)
+- [ ] Create rollback script (`./scripts/corpus-manager`)
+- [ ] Add integrity verification on startup
+- [ ] Link eval results to corpus version
 
 ### Phase 4: Custom Documents
 

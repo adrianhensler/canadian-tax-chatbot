@@ -27,7 +27,7 @@ Ask a question about Canadian personal income tax. The chatbot retrieves relevan
 
 - **Q&A with Citations** - Ask questions, get answers with source references
 - **Local Mode** - Run entirely on your machine via Docker + Ollama (no data leaves your device)
-- **Hosted Mode** - Web service using GPT-4 for higher quality answers
+- **Hosted Mode** - Web service using Claude/GPT APIs for higher quality answers
 - **Hybrid Retrieval** - Vector search + keyword matching for accurate document retrieval
 - **Deterministic Calculations** - Tax math handled by code, not the LLM
 
