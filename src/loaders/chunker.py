@@ -3,6 +3,7 @@
 from dataclasses import dataclass, field
 from typing import Any
 import tiktoken
+import hashlib
 
 from .xml_parser import Section, Subsection
 
@@ -55,7 +56,7 @@ def chunk_section(
 
     if full_tokens <= max_tokens:
         # Section fits in one chunk
-        chunk_id = _generate_chunk_id("ITA", section.section_number, 0)
+        chunk_id = _generate_chunk_id("ITA", section.section_number, "", 0, full_text)
         return [
             Chunk(
                 text=full_text,
@@ -112,7 +113,7 @@ def _chunk_subsection(
         ss_tokens = len(encoder.encode(ss_text))
         metadata["truncated"] = True
 
-    chunk_id = _generate_chunk_id("ITA", parent.section_number, index)
+    chunk_id = _generate_chunk_id("ITA", parent.section_number, subsection.label, index, ss_text)
 
     return Chunk(
         text=ss_text,
@@ -122,6 +123,10 @@ def _chunk_subsection(
     )
 
 
-def _generate_chunk_id(source: str, section: str, index: int) -> str:
+def _generate_chunk_id(source: str, section: str, subsection: str, index: int, text: str) -> str:
     """Generate unique chunk ID"""
-    return f"{source}-{section}-{index:03d}"
+    # Create hash of text to ensure uniqueness even for empty section numbers
+    text_hash = hashlib.md5(text.encode()).hexdigest()[:8]
+    section_id = section if section else "unknown"
+    subsection_id = f"-{subsection}" if subsection else ""
+    return f"{source}-{section_id}{subsection_id}-{index:03d}-{text_hash}"
