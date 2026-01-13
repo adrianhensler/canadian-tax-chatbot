@@ -542,7 +542,10 @@ Each corpus version includes a `corpus_manifest.json`:
   },
   "checksums": {
     "chunks_file": "sha256:abc123...",
-    "vector_index": "sha256:def456..."
+    "vector_index": {
+      "vectors.faiss": "sha256:def456...",
+      "vectors.faiss.meta": "sha256:987abc..."
+    }
   }
 }
 ```
@@ -588,7 +591,7 @@ data/
 ./scripts/corpus-manager rollback corpus-2025-01-01
 
 # This:
-# 1. Verifies checksums of target version
+# 1. Verifies checksums of target version (source XML + derived artifacts)
 # 2. Updates 'current' symlink
 # 3. Restarts retrieval service to load new index
 # 4. Logs rollback event
@@ -602,11 +605,17 @@ import json
 from pathlib import Path
 from datetime import datetime
 
-def create_corpus_version(sources_dir: Path, output_dir: Path) -> dict:
+def create_corpus_version(
+    sources_dir: Path,
+    output_dir: Path,
+    consolidation_date: str,
+    chunks_path: Path,
+    vector_index_paths: list[Path],
+) -> dict:
     """
     Create a new versioned corpus with manifest.
     """
-    version = f"corpus-{datetime.now().strftime('%Y-%m-%d')}"
+    version = f"corpus-{consolidation_date}"
     version_dir = output_dir / version
     version_dir.mkdir(parents=True, exist_ok=True)
 
@@ -633,6 +642,17 @@ def create_corpus_version(sources_dir: Path, output_dir: Path) -> dict:
             "sha256": sha256
         }
 
+    manifest["checksums"]["chunks_file"] = (
+        f"sha256:{hashlib.sha256(chunks_path.read_bytes()).hexdigest()}"
+    )
+    manifest["checksums"]["vector_index"] = {
+        artifact.name: f"sha256:{hashlib.sha256(artifact.read_bytes()).hexdigest()}"
+        for artifact in vector_index_paths
+    }
+
+    manifest_path = version_dir / "corpus_manifest.json"
+    manifest_path.write_text(json.dumps(manifest, indent=2))
+
     return manifest
 
 def verify_corpus_integrity(version_dir: Path) -> bool:
@@ -651,6 +671,20 @@ def verify_corpus_integrity(version_dir: Path) -> bool:
 
         if actual_hash != source_info["sha256"]:
             print(f"Checksum mismatch: {source_name}")
+            return False
+
+    chunks_path = version_dir / "chunks.jsonl"
+    chunks_hash = hashlib.sha256(chunks_path.read_bytes()).hexdigest()
+    if f"sha256:{chunks_hash}" != manifest["checksums"].get("chunks_file"):
+        print("Checksum mismatch: chunks.jsonl")
+        return False
+
+    vector_checksums = manifest["checksums"].get("vector_index", {})
+    for artifact_name, expected_hash in vector_checksums.items():
+        artifact_path = version_dir / artifact_name
+        actual_hash = hashlib.sha256(artifact_path.read_bytes()).hexdigest()
+        if f"sha256:{actual_hash}" != expected_hash:
+            print(f"Checksum mismatch: {artifact_name}")
             return False
 
     return True
