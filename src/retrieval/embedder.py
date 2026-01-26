@@ -41,6 +41,11 @@ class Embedder:
         api_key = self.config.api_key or os.getenv("OPENAI_API_KEY")
         if not api_key:
             raise ValueError("OpenAI API key required but not provided")
+        if self.config.model_name == "all-MiniLM-L6-v2":
+            raise ValueError(
+                "Embedding model 'all-MiniLM-L6-v2' is a local sentence-transformers model. "
+                "Use an OpenAI embedding model (e.g., text-embedding-3-small) when --use-api is set."
+            )
         self._client = OpenAI(api_key=api_key)
 
     def embed(self, text: str) -> list[float]:
