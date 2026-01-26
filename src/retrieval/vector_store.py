@@ -49,6 +49,9 @@ class VectorStore:
 
         # Initialize embedder
         config = embedder_config or EmbedderConfig()
+        if config.use_api and config.model_name == "all-MiniLM-L6-v2":
+            config.model_name = "text-embedding-3-small"
+            print("Note: use_api enabled; defaulting embedding model to text-embedding-3-small")
         self._embedder = Embedder(config)
 
     def add_chunks(self, chunks: list[Chunk]) -> None:
