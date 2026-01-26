@@ -44,6 +44,11 @@ def main():
             print("Error: No ITA XML found. Use --download or --source")
             return 1
 
+    # Normalize embedding model selection
+    if args.use_api and args.model == "all-MiniLM-L6-v2":
+        args.model = "text-embedding-3-small"
+        print("Note: --use-api set; defaulting embedding model to text-embedding-3-small")
+
     # Parse XML
     print(f"Parsing {xml_path}...")
     sections = parse_justice_xml(xml_path)
@@ -115,8 +120,15 @@ def main():
 
     # Update symlink
     current_link = args.output / "current"
-    if current_link.is_symlink() or current_link.exists():
+    if current_link.is_symlink():
         current_link.unlink()
+    elif current_link.exists():
+        if current_link.is_dir():
+            import shutil
+
+            shutil.rmtree(current_link)
+        else:
+            current_link.unlink()
     current_link.symlink_to(version)
     print(f"✓ Updated 'current' symlink to {version}")
 
