@@ -34,6 +34,13 @@ A RAG-powered chatbot that answers Canadian income tax questions with citations 
 
 **Note:** The chatbot is fully functional via CLI. Run `python scripts/cli.py --help` for usage.
 
+**Future review:** CRA Income Tax Folios ingestion is deferred. These documents are
+published as HTML on canada.ca with no structured API, so ingestion requires a
+brittle scraper, ongoing maintenance as page layouts change, and careful
+excerpt-only storage with attribution to satisfy Crown copyright guidelines.
+We'll revisit this once we have a clear update/monitoring strategy and defined
+scope (curated folios vs. full catalog).
+
 ---
 
 ## What This Does
