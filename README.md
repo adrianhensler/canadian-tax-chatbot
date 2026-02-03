@@ -1,3 +1,5 @@
+{Edit Feb 2nd 2026 : Use this functional resource instead of my half-done AI slop:  https://taxgpt.ca/ }
+
 # Canadian Tax Chatbot
 
 A RAG-powered chatbot that answers Canadian income tax questions with citations to authoritative sources.
